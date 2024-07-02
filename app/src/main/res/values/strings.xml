@@ -1,11 +1,24 @@
 <resources>
     <string name="app_name">harmony</string>
+
+    <!--로그인-->
     <string name="login_id">아이디를 입력하세요.</string>
     <string name="login_password">비밀번호를 입력하세요.</string>
     <string name="login_loginbtn">로그인</string>
     <string name="login_signupbtn">회원이 아니신가요?</string>
+
+    <!--상세화면-->
+    <string name="detail_title">상세 화면</string>
+    <string name="detail_img_desc">메뉴 이미지</string>
+    <string name="detail_sub_title">메뉴 구성</string>
+
+    <!--회원가입-->
     <string name="signup_title">회원가입</string>
     <string name="signup_name">이름을 입력하세요.</string>
     <string name="signup_signupbtn">회원가입</string>
     <string name="signup_introduce">자기소개를 입력하세요</string>
+
+    <!--마이페이지-->
+    <string name="my_page_toolbar_title">마이페이지</string>
+
 </resources>
