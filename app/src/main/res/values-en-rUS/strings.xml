@@ -9,6 +9,12 @@
     <string name="login_signupbtn">Not a member?</string>
     <string name="signup_title">Sign Up</string>
 
+    <!-- 홈화면 -->
+    <string name="home_welcome_message">Welcome, OO</string>
+    <string name="home_feed_name1">Bora Kim</string>
+    <string name="home_feed_time1">30.06.24</string>
+    <string name="home_feed_content1">White milk with 3 scoops of chocolate ice cream and chocolate drizzle will fill up sugar!</string>
+
     <!--상세 화면-->
     <string name="detail_title">Detail Page</string>
     <string name="detail_img_desc">Menu image</string>
