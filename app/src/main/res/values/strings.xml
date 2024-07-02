@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">harmony_cafe</string>
+    <string name="app_name">harmony</string>
     <string name="login_id">아이디를 입력하세요.</string>
     <string name="login_password">비밀번호를 입력하세요.</string>
     <string name="login_loginbtn">로그인</string>
@@ -7,4 +7,5 @@
     <string name="detail_title">상세 화면</string>
     <string name="detail_img_desc">메뉴 이미지</string>
     <string name="detail_sub_title">메뉴 구성</string>
+    <string name="signup_title">회원가입</string>
 </resources>
