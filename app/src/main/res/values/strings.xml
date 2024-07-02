@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">harmony</string>
 
+
     <!--로그인-->
     <string name="login_id">아이디를 입력하세요.</string>
     <string name="login_password">비밀번호를 입력하세요.</string>
     <string name="login_loginbtn">로그인</string>
     <string name="login_signupbtn">회원이 아니신가요?</string>
+
+
+    <string name="home_welcome_message">환영합니다, OO님!</string>
 
     <!--상세화면-->
     <string name="detail_title">상세 화면</string>
