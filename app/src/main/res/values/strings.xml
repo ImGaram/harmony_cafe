@@ -5,4 +5,7 @@
     <string name="login_loginbtn">로그인</string>
     <string name="login_signupbtn">회원이 아니신가요?</string>
     <string name="signup_title">회원가입</string>
+    <string name="signup_name">이름을 입력하세요.</string>
+    <string name="signup_signupbtn">회원가입</string>
+    <string name="signup_introduce">자기소개를 입력하세요</string>
 </resources>
