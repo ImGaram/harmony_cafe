@@ -19,6 +19,9 @@
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
+            android:name=".MyPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
