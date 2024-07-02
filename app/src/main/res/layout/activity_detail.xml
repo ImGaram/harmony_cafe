@@ -101,7 +101,7 @@
                 android:id="@+id/detail_menu_desc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/detail_ipsum"
+                android:text="@string/detail_text"
                 android:ellipsize="end"
                 android:maxLines="3"
                 android:textSize="14sp"
