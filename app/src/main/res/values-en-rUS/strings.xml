@@ -7,6 +7,7 @@
     <string name="login_password">Please enter your Password.</string>
     <string name="login_loginbtn">Login</string>
     <string name="login_signupbtn">Not a member?</string>
+    <string name="signup_title">Sign Up</string>
 
 
     <!--마이페이지-->
