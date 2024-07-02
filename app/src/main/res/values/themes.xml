@@ -5,5 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/shrikhand_regular</item>
+    </style>
+
     <style name="Theme.Harmony_cafe" parent="Base.Theme.Harmony_cafe" />
 </resources>

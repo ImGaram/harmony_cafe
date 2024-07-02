@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LogInActivity">
-
     <TextView
         android:id="@+id/login_title"
         android:layout_width="wrap_content"
@@ -94,5 +93,4 @@
             android:textColor="#818181"
             android:background="@color/transparent"/>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
