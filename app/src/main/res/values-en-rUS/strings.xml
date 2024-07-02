@@ -15,6 +15,18 @@
     <string name="home_feed_time1">30.06.24</string>
     <string name="home_feed_content1">White milk with 3 scoops of chocolate ice cream and chocolate drizzle will fill up sugar!</string>
 
+    <string name="home_feed_name2">Taeyoung Kim</string>
+    <string name="home_feed_time2">03.07.24</string>
+    <string name="home_feed_content2">내용 제공해주시나요?</string>
+
+    <string name="home_feed_name3">Yooho Song</string>
+    <string name="home_feed_time3">02.07.24</string>
+    <string name="home_feed_content3">내용 제공해주시나요?2</string>
+
+    <string name="home_feed_name4">Garam Im</string>
+    <string name="home_feed_time4">.07.24</string>
+    <string name="home_feed_content4">내용 제공해주시나요3</string>
+
     <!--상세 화면-->
     <string name="detail_title">Detail Page</string>
     <string name="detail_img_desc">Menu image</string>

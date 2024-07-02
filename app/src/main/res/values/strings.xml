@@ -11,8 +11,20 @@
     <!-- 홈화면 -->
     <string name="home_welcome_message">환영합니다, OO님!</string>
     <string name="home_feed_name1">김보라</string>
-    <string name="home_feed_time1">2024.06.30</string>
+    <string name="home_feed_time1">24.07.03</string>
     <string name="home_feed_content1">초콜릿맛 아이스크림이 3스쿱, 초콜릿 드리즐, 그리고 흰 우유로 조합한 달달한 당충전 음료!</string>
+
+    <string name="home_feed_name2">김태영</string>
+    <string name="home_feed_time2">24.07.03</string>
+    <string name="home_feed_content2">내용 제공해주시나요?</string>
+
+    <string name="home_feed_name3">송유호</string>
+    <string name="home_feed_time3">24.07.02</string>
+    <string name="home_feed_content3">내용 제공해주시나요?2</string>
+
+    <string name="home_feed_name4">임가람</string>
+    <string name="home_feed_time4">24.07.02</string>
+    <string name="home_feed_content4">내용 제공해주시나요3</string>
 
 
     <!--상세화면-->
