@@ -6,6 +6,5 @@
     <string name="login_signupbtn">회원이 아니신가요?</string>
     <string name="detail_title">상세 화면</string>
     <string name="detail_img_desc">메뉴 이미지</string>
-    <string name="detail_text">%s</string>
     <string name="detail_sub_title">메뉴 구성</string>
 </resources>
