@@ -7,4 +7,6 @@
     <color name="teritary">#FFA79C8A</color>
     <color name="highlight">#FF6C6053</color>
     <color name="black_shade">#FF202020</color>
+    <color name="gray">#FFDDDFE4</color>
+    <color name="transparent">#00000000</color>
 </resources>
