@@ -51,6 +51,9 @@ class LogInActivity : AppCompatActivity() {
                 Toast.makeText(this,"비밀번호를 다시 입력해주세요.",Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
+            val intent=Intent(this, HomeActivity::class.java)
+            intent.putExtra("user",users[id])
+            startActivity(intent)
 
         }
 

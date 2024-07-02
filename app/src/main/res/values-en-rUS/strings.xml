@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">harmony_cafe</string>
+
+    <!--로그인-->
+    <string name="login_id">Please enter your ID.</string>
+    <string name="login_password">Please enter your Password.</string>
+    <string name="login_loginbtn">Login</string>
+    <string name="login_signupbtn">Not a member?</string>
+    <string name="signup_title">Sign Up</string>
+
+    <!--상세 화면-->
+    <string name="detail_title">Detail Page</string>
+    <string name="detail_img_desc">Menu image</string>
+    <string name="detail_sub_title">Menu composition</string>
+
+    <!--마이페이지-->
+    <string name="my_page_toolbar_title">MyPage</string>
+</resources>
