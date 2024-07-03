@@ -19,6 +19,7 @@ class LogInActivity : AppCompatActivity() {
     //키를 아이디로 하는 해시맵으로 회원가입 유저 데이터들 관리
     val users=HashMap<String,User>()
 
+
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +30,7 @@ class LogInActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        users.put("1",User("1","1","1","1"))
 
         val editId=findViewById<EditText>(R.id.login_id)
         val editPw=findViewById<EditText>(R.id.login_password)
