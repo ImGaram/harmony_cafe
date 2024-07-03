@@ -8,6 +8,9 @@
     <string name="login_password">비밀번호를 입력하세요.</string>
     <string name="login_loginbtn">로그인</string>
     <string name="login_signupbtn">회원이 아니신가요?</string>
+    <string name="login_empty">아이디와 패스워드 모두 입력해주세요.</string>
+    <string name="login_iderror">가입되지 않은 아이디입니다.</string>
+    <string name="login_pwerror">비밀번호를 다시 입력해주세요.</string>
 
 
     <!-- 홈화면 -->
@@ -22,11 +25,13 @@
 
     <string name="home_feed_name3">송유호</string>
     <string name="home_feed_time3">24.07.02</string>
-    <string name="home_feed_content3">내용 제공해주시나요?2</string>
+    <string name="home_feed_content3">바삭한 와플에 소금이 살짝 들어가 단짠을 즐길 수 있는 생크림이 어우러지는 소금우유와플</string>
 
     <string name="home_feed_name4">임가람</string>
     <string name="home_feed_time4">24.07.02</string>
     <string name="home_feed_content4">자몽의 과육에 물, 설탕, 탄산수를 섞은 톡 쏘는 맛이 일품인 음료!</string>
+
+    <string name="home_snackbar">2024년 12월 25일 진행되는 디저트 페어 입장권을 추첨합니다!</string>
 
 
     <!--상세화면-->
@@ -40,6 +45,15 @@
     <string name="signup_signupbtn">회원가입</string>
     <string name="signup_introduce">자기소개를 입력하세요</string>
     <string name="signup_dupbtn">중복 확인</string>
+    <string name="sginup_emptyid">아이디를 입력해주세요.</string>
+    <string name="sginup_idblank">아이디에는 공백문자가 사용될 수 없습니다.</string>
+    <string name="sginup_iderror">아이디는 영문 대소문자, 숫자, 특수문자($@!%*#?&amp;)로 만들 수 있습니다.</string>
+    <string name="sginup_idassigned">이미 사용중인 아이디입니다.</string>
+    <string name="sginup_idok">사용 가능한 아이디입니다.</string>
+    <string name="sginup_dup">아이디 중복체크를 해주세요</string>
+    <string name="sginup_pwempty">비밀번호와 이름칸을 채워주세요.</string>
+    <string name="sginup_pwblank">비밀번호에는 공백문자가 사용될 수 없습니다.</string>
+    <string name="sginup_pwerror">비밀번호는 영문,숫자,특수문자($@!%*#?&amp;)를 포함해 8자리 이상이어야 합니다.</string>
 
     <!--마이페이지-->
     <string name="my_page_toolbar_title">마이페이지</string>

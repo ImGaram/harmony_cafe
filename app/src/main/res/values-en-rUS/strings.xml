@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">harmony_cafe</string>
+    <string name="app_name">harmony</string>
 
     <!--로그인-->
     <string name="login_id">Please enter your ID.</string>
@@ -8,6 +8,9 @@
     <string name="login_loginbtn">Login</string>
     <string name="login_signupbtn">Not a member?</string>
     <string name="login_title">harmony</string>
+    <string name="login_empty">Please enter both ID and password.</string>
+    <string name="login_iderror">This ID is not registered.</string>
+    <string name="login_pwerror">Please re-enter your password</string>
 
     <!-- 홈화면 -->
     <string name="home_welcome_message">Welcome, %s</string>
@@ -21,11 +24,13 @@
 
     <string name="home_feed_name3">Yooho Song</string>
     <string name="home_feed_time3">02.07.24</string>
-    <string name="home_feed_content3">내용 제공해주시나요?2</string>
+    <string name="home_feed_content3">Salt milk waffle, a crispy waffle with a little salt and fresh cream for a sweet and salty taste</string>
 
     <string name="home_feed_name4">Garam Im</string>
     <string name="home_feed_time4">.07.02</string>
     <string name="home_feed_content4">A drink with a tangy taste that mixes grapefruit pulp with water, sugar, and carbonated water!</string>
+
+    <string name="home_snackbar">Tickets for the dessert fair will be drawn on December 25, 2024!</string>
 
     <!--상세 화면-->
     <string name="detail_title">Detail Page</string>
@@ -42,9 +47,6 @@
 
     <!--마이페이지-->
     <string name="my_page_toolbar_title">MyPage</string>
-    <string name="my_page_user_menu1">%s\'s menu 1</string>
-    <string name="my_page_user_menu2">%s\'s menu 2</string>
-    <string name="my_page_user_menu3">%s\'s menu 3</string>
 
     <!-- 메뉴 -->
     <string name="menu_name1">Oolong tea &amp; Earl Grey Bread Pudding</string>

@@ -43,14 +43,14 @@ class LogInActivity : AppCompatActivity() {
             val id=editId.text.toString()
             val pw=editPw.text.toString()
             if(id.isEmpty()||pw.isEmpty()){
-                Toast.makeText(this, "아이디와 패스워드 모두 입력해주세요.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.login_empty), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             if(!users.keys.contains(id)){
-                Toast.makeText(this, "가입되지 않은 아이디입니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.login_iderror), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }else if(users[id]!!.pass!=pw){
-                Toast.makeText(this,"비밀번호를 다시 입력해주세요.",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,getString(R.string.login_pwerror),Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             val intent=Intent(this, HomeActivity::class.java)
@@ -62,7 +62,7 @@ class LogInActivity : AppCompatActivity() {
         val launcher=registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
                 result->
             if (result.resultCode == Activity.RESULT_OK){
-                val user: User? =result.data!!.getParcelableExtra("user", User::class.java)
+                val user=result.data?.getParcelableExtra("user",User::class.java)
                 if (user != null) {
                     users.put(user.id,user)
                 }
