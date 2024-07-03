@@ -10,4 +10,5 @@
     <color name="black_shade">#FF202020</color>
     <color name="gray">#FFDDDFE4</color>
     <color name="transparent">#00000000</color>
+    <color name="login_background">#FFFFFFFF</color>
 </resources>
