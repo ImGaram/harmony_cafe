@@ -25,7 +25,6 @@ class HomeActivity : AppCompatActivity() {
         val detailImage3 = findViewById<ImageView>(R.id.home_imageView3)
         val detailImage4 = findViewById<ImageView>(R.id.home_imageView4)
         val detailImage5 = findViewById<ImageView>(R.id.home_imageView5)
-
         val nameTextView = findViewById<TextView>(R.id.home_welcome_message)
         val myPageImageButton = findViewById<ImageView>(R.id.imageButton)
 
@@ -37,5 +36,6 @@ class HomeActivity : AppCompatActivity() {
             myPageIntent.putExtra("user", userData)
             startActivity(myPageIntent)
         }
+
     }
 }
