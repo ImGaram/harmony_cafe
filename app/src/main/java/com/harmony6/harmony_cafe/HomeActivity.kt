@@ -2,6 +2,7 @@ package com.harmony6.harmony_cafe
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -45,26 +46,28 @@ class HomeActivity : AppCompatActivity() {
 
 
         val detailIntent = Intent(this, DetailActivity::class.java)
+
+//        Log.d("Home log!", "asfxdfasdfasdf") << 나중에 제가 삭제할게요
         fun putIntent(detailNum: Int){
             when(detailNum){
                 1 -> {
-                    detailIntent.putExtra("menuData", "1")
+                    detailIntent.putExtra("menuKey", getString(R.string.menu_name1))
                     startActivity(detailIntent)
                 }
                 2 -> {
-                    detailIntent.putExtra("menuData", "2")
+                    detailIntent.putExtra("menuData", getString(R.string.menu_name2))
                     startActivity(detailIntent)
                 }
                 3 -> {
-                    detailIntent.putExtra("menuData", "3")
+                    detailIntent.putExtra("menuData", getString(R.string.menu_name3))
                     startActivity(detailIntent)
                 }
                 4 -> {
-                    detailIntent.putExtra("menuData", "4")
+                    detailIntent.putExtra("menuData", getString(R.string.menu_name4))
                     startActivity(detailIntent)
                 }
                 5 -> {
-                    detailIntent.putExtra("menuData", "5")
+                    detailIntent.putExtra("menuData", getString(R.string.menu_name5))
                     startActivity(detailIntent)
                 }
             }

@@ -62,12 +62,12 @@
     <string name="my_page_user_menu3">%s의 메뉴 3</string>
 
     <!-- 메뉴 -->
-    <string name="menu_name1">우롱티와 얼그레이 브레드푸딩</string>
-    <string name="menu_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_name1">우롱티와 얼그레이 브레드 푸딩</string>
+    <string name="menu_desc1">깔끔한 우롱티와 달달 쌉싸름한 얼그레이 브레드 푸딩의 조화로운 harmony~</string>
     <string name="menu_components1_name1">우롱티</string>
-    <string name="menu_components1_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components1_desc1">엄선된 다원에서 하나하나 직접 재배한 프리미엄 우롱티! 정말 맛있어요.</string>
     <string name="menu_components1_name2">얼그레이 브레드푸딩</string>
-    <string name="menu_components1_desc2">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components1_desc2">향긋한 얼그레이와 쌉싸름한 카카오닙스, 그리고 오독오독 호두까지. 너무 달지도, 쓰지도 않고 조화롭게 맛있는 브레드 푸딩도 드셔보세요.</string>
 
     <string name="menu_name2">아이스 아메리카노와 딸기 티라미수</string>
     <string name="menu_desc2">쓰고 깊은 맛과 달콤하고 상큼한 맛이 어우러지니, 마치 더운 여름 날에 서늘한 그늘 아래 앉아 봄날의 향기를 만끽하는 것 같구나. 이 얼마나 조화로운가?</string>
@@ -91,10 +91,10 @@
     <string name="menu_components4_desc2">메뉴 설명을 입력해주세요.</string>
 
     <string name="menu_name5">초코 라떼와 황치즈 쿠키</string>
-    <string name="menu_desc5">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_desc5">다크 초콜릿으로 만든 초코 라떼와 황치즈가 듬뿍 들어간 쿠키</string>
     <string name="menu_components5_name1">초코 라떼</string>
-    <string name="menu_components5_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components5_desc1">벨기에산 다크 초콜릿과 국산 A++ 우유의 만남! 더욱 깊고 진한 풍미를 느껴보세요.</string>
     <string name="menu_components5_name2">황치즈 쿠키</string>
-    <string name="menu_components5_desc2">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components5_desc2">꼬숩 짭쪼름 달달한 황치즈 쿠키! 한 번 맛 보면 헤어나오지 못한대요~</string>
 
 </resources>

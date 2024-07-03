@@ -64,9 +64,9 @@
     <string name="menu_name1">Oolong tea &amp; Earl Grey Bread Pudding</string>
     <string name="menu_desc1">If you enjoy oolong tea and earl grey bread pudding together, you\'ll feel twice full</string>
     <string name="menu_components1_name1">Oolong tea</string>
-    <string name="menu_components1_desc1">Please enter the menu description.</string>
+    <string name="menu_components1_desc1">Premium Oolong tea grown one by one from selected Da Won! It\'s really delicious.</string>
     <string name="menu_components1_name2">Earl Grey Bread Pudding</string>
-    <string name="menu_components1_desc2">Please enter the menu description.</string>
+    <string name="menu_components1_desc2">From fragrant earl grey, bitter cacao nibs, and crunchy walnuts. Try some delicious bread pudding that\'s not too sweet or bitter.</string>
 
     <string name="menu_name2">Ice Americano &amp; Strawberry Tiramisu</string>
     <string name="menu_desc2">It\'s a combination of bitter and deep and sweet and refreshing, as if you\'re sitting under a cool shade on a hot summer day and enjoying the scent of a spring day. How harmonious is this?</string>
@@ -90,9 +90,9 @@
     <string name="menu_components4_desc2">Please enter the menu description.</string>
 
     <string name="menu_name5">Chocolate Latte &amp; Yellow Cheese Cookies</string>
-    <string name="menu_desc5">Please enter the menu description.</string>
+    <string name="menu_desc5">Chocolate latte made of dark chocolate and cookies full of yellow cheese</string>
     <string name="menu_components5_name1">Chocolate Latte</string>
-    <string name="menu_components5_desc1">Please enter the menu description.</string>
+    <string name="menu_components5_desc1">Belgian Dark Chocolate Meets Domestic A++ Milk! Get a deeper and deeper flavor.</string>
     <string name="menu_components5_name2">Yellow Cheese Cookies</string>
-    <string name="menu_components5_desc2">Please enter the menu description.</string>
+    <string name="menu_components5_desc2">Sweet yellow cheese cookies! Once you taste it, you can\'t get out of it.</string>
 </resources>
