@@ -63,24 +63,24 @@ class SignUpActivity : AppCompatActivity() {
         dupBtn.setOnClickListener {
             val id=idEdit.text.toString()
             if(id.isEmpty()){
-                Toast.makeText(this, "아이디를 입력해주세요.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_emptyid), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             if(id.contains(" ")){
-                Toast.makeText(this, "아이디에는 공백문자가 사용될 수 없습니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_idblank), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             val idregex=Regex("^[a-zA-Z0-9$@!%*#?&]{1,}$") //알파벳 대소문자, 숫자, 특수문자
             if(id.contains(" ")||!idregex.matches(id)){
-                Toast.makeText(this, "아이디는 영문 대소문자, 숫자, 특수문자($@!%*#?&)로 만들 수 있습니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_iderror), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             if(ids?.contains(id)?:false){
-                Toast.makeText(this, "이미 사용중인 아이디입니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_idassigned), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
-            Toast.makeText(this, "사용 가능한 아이디입니다.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.sginup_idok), Toast.LENGTH_SHORT).show()
             idflag=true
         }
 
@@ -91,23 +91,23 @@ class SignUpActivity : AppCompatActivity() {
             val id=idEdit.text.toString()
 
             if(!idflag){
-                Toast.makeText(this, "아이디 중복체크를 해주세요.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_dup), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             if(pw.isEmpty()||name.isEmpty()){
-                Toast.makeText(this, "비밀번호와 이름칸을 채워주세요.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_pwempty), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             if(pw.contains(" ")){
-                Toast.makeText(this, "비밀번호에는 공백문자가 사용될 수 없습니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_pwblank), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             val pwregex=Regex("^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[$@!%*#?&.])[A-Za-z[0-9]$@!%*#?&.]{8,}\$")//영문 숫자 특수문자 전부 하나이상인 8자리 이상의 비밀번호
             if(pw.contains(" ")||!pwregex.matches(pw)){
-                Toast.makeText(this, "비밀번호는 영문,숫자,특수문자($@!%*#?&)를 포함해 8자리 이상이어야 합니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.sginup_pwerror), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
@@ -124,7 +124,7 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item!!.itemId){
+        when(item?.itemId?:android.R.id.home){
             android.R.id.home -> finish()
         }
         return super.onOptionsItemSelected(item)
