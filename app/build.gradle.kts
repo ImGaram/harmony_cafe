@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.harmony6.harmony_cafe"
-        minSdk = 26
+        minSdk = 33
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
