@@ -9,23 +9,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.harmony6.harmony_cafe.data.Components
 import com.harmony6.harmony_cafe.data.Menu
-import java.time.LocalDate
+import com.harmony6.harmony_cafe.data.MenuObject
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var components: List<Triple<ImageView, TextView, TextView>>
-    private val menu = Menu(
-        "메뉴 이름 1",
-        "메뉴 설명 1", R.drawable.img_component_ice_cream_crople,
-        "사용자 이름 1",
-        LocalDate.of(2024, 1, 4),
-        listOf(
-            Components("메뉴 구성 이름 1", "메뉴 구성 설명 1", R.drawable.img_component_ice_cream_crople),
-            Components("메뉴 구성 이름 2", "메뉴 구성 설명 2", R.drawable.img_component_ice_cream_crople),
-            Components("메뉴 구성 이름 3", "메뉴 구성 설명 3", R.drawable.img_component_ice_cream_crople),
-        )
-    )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,8 +31,11 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back)
 
+        val menuName = intent.getStringExtra("menuKey") ?: ""
+        val menu = getMenuByMenuName(menuName)
+
         setComponents()
-        setMenu()
+        setMenu(menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -76,20 +67,25 @@ class DetailActivity : AppCompatActivity() {
     }
 
     // 메뉴 정보 표시
-    private fun setMenu() {
-        findViewById<ImageView>(R.id.detail_menu_img).apply { setImageResource(menu.img) }
-        findViewById<TextView>(R.id.detail_menu_name).apply { text = menu.name }
-        findViewById<TextView>(R.id.detail_user_name).apply { text = menu.username }
-        findViewById<TextView>(R.id.detail_menu_created).apply {
-            text = menu.createdDate.toString()
-        }
-        findViewById<TextView>(R.id.detail_menu_desc).apply { text = menu.desc }
+    private fun setMenu(menu: Menu?) {
+        menu?.let {
+            findViewById<ImageView>(R.id.detail_menu_img).apply { setImageResource(menu.img) }
+            findViewById<TextView>(R.id.detail_menu_name).apply { text = menu.name }
+            findViewById<TextView>(R.id.detail_user_name).apply { text = menu.username }
+            findViewById<TextView>(R.id.detail_menu_created).apply {
+                text = menu.createdDate.toString()
+            }
+            findViewById<TextView>(R.id.detail_menu_desc).apply { text = menu.desc }
 
-        components.mapIndexed { idx, item ->
-            item.first.setImageResource(menu.components[idx].img)
-            item.first.clipToOutline = true
-            item.second.text = menu.components[idx].name
-            item.third.text = menu.components[idx].desc
+            components.mapIndexed { idx, item ->
+                item.first.setImageResource(menu.components[idx].img)
+                item.first.clipToOutline = true
+                item.second.text = menu.components[idx].name
+                item.third.text = menu.components[idx].desc
+            }
         }
     }
+
+    // 메뉴 이름으로 메뉴 찾기
+    private fun getMenuByMenuName(name: String) = MenuObject.menuList.find { it.name == name }
 }
