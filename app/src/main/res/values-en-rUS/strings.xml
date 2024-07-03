@@ -44,9 +44,21 @@
     <string name="signup_signupbtn">SIGN UP</string>
     <string name="signup_introduce">Please enter your self-introduction</string>
     <string name="signup_dupbtn">Check Availability</string>
+    <string name="sginup_emptyid">Please enter your ID.</string>
+    <string name="sginup_idblank">Space characters cannot be used in the ID.</string>
+    <string name="sginup_iderror">ID can be created with upper and lower case English letters, numbers, and special characters ($@!%*#?&amp;).</string>
+    <string name="sginup_idassigned">This ID is already in use.</string>
+    <string name="sginup_idok">This ID is available.</string>
+    <string name="sginup_dup">Please check for ID duplication</string>
+    <string name="sginup_pwempty">Please fill in the password and name fields.</string>
+    <string name="sginup_pwblank">Password cannot contain spaces.</string>
+    <string name="sginup_pwerror">Password must be at least 8 characters including letters, numbers, and special characters ($@!%*#?&amp;).</string>
 
     <!--마이페이지-->
     <string name="my_page_toolbar_title">MyPage</string>
+    <string name="my_page_user_menu1">%s\'s menu 1</string>
+    <string name="my_page_user_menu2">%s\'s menu 2</string>
+    <string name="my_page_user_menu3">%s\'s menu 3</string>
 
     <!-- 메뉴 -->
     <string name="menu_name1">Oolong tea &amp; Earl Grey Bread Pudding</string>
