@@ -15,7 +15,6 @@
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
-        </activity>
         <activity
             android:name=".DetailActivity"
             android:exported="false" />
