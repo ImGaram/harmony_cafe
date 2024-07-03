@@ -61,6 +61,7 @@
         android:paddingVertical="12dp"
         android:paddingStart="16dp"
         android:scrollbars="none"
+        tools:ignore="SpeakableTextPresentCheck"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
@@ -76,7 +77,9 @@
                 android:layout_height="70dp"
                 android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_profile"
+                android:background="@drawable/bg_home_profile_image"
+                android:src="@drawable/home_feed_profile1"
+                android:clipToOutline="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -87,7 +90,9 @@
                 android:layout_height="70dp"
                 android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_profile"
+                android:background="@drawable/bg_home_profile_image"
+                android:src="@drawable/home_feed_profile1"
+                android:clipToOutline="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -98,7 +103,9 @@
                 android:layout_height="70dp"
                 android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_profile"
+                android:background="@drawable/bg_home_profile_image"
+                android:src="@drawable/home_feed_profile1"
+                android:clipToOutline="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -109,7 +116,9 @@
                 android:layout_height="70dp"
                 android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_profile"
+                android:background="@drawable/bg_home_profile_image"
+                android:src="@drawable/home_feed_profile1"
+                android:clipToOutline="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -120,7 +129,9 @@
                 android:layout_height="70dp"
                 android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_profile"
+                android:background="@drawable/bg_home_profile_image"
+                android:src="@drawable/home_feed_profile1"
+                android:clipToOutline="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -137,7 +148,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/home_divider">
+        app:layout_constraintTop_toBottomOf="@+id/home_divider"
+        android:overScrollMode="ifContentScrolls">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -161,11 +173,13 @@
 
                     <ImageView
                         android:id="@+id/home_feed_title_profile1"
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
+                        android:background="@drawable/bg_home_profile_image"
                         android:src="@drawable/home_feed_profile1"
+                        android:clipToOutline="true"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -242,11 +256,13 @@
 
                     <ImageView
                         android:id="@+id/home_feed_title_profile2"
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_profile"
+                        android:background="@drawable/bg_home_profile_image"
+                        android:src="@drawable/home_feed_image1"
+                        android:clipToOutline="true"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -323,11 +339,13 @@
 
                     <ImageView
                         android:id="@+id/home_feed_title_profile3"
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_profile"
+                        android:background="@drawable/bg_home_profile_image"
+                        android:src="@drawable/home_feed_image1"
+                        android:clipToOutline="true"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -391,7 +409,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingVertical="16dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="142dp"
                 tools:ignore="MissingConstraints">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -404,11 +422,13 @@
 
                     <ImageView
                         android:id="@+id/home_feed_title_profile4"
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_profile"
+                        android:background="@drawable/bg_home_profile_image"
+                        android:src="@drawable/home_feed_image1"
+                        android:clipToOutline="true"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
