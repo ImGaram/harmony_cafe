@@ -31,6 +31,8 @@
     <string name="home_feed_time4">24.07.02</string>
     <string name="home_feed_content4">내용 제공해주시나요3</string>
 
+    <string name="home_snackbar">2024년 12월 25일 진행되는 디저트 페어 입장권을 추첨합니다!</string>
+
 
     <!--상세화면-->
     <string name="detail_title">상세 화면</string>
@@ -56,6 +58,40 @@
     <!--마이페이지-->
     <string name="my_page_toolbar_title">마이페이지</string>
 
+    <!-- 메뉴 -->
+    <string name="menu_name1">우롱티와 얼그레이 브레드푸딩</string>
+    <string name="menu_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components1_name1">우롱티</string>
+    <string name="menu_components1_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components1_name2">얼그레이 브레드푸딩</string>
+    <string name="menu_components1_desc2">메뉴 설명을 입력해주세요.</string>
 
+    <string name="menu_name2">아이스 아메리카노와 딸기 티라미수</string>
+    <string name="menu_desc2">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components2_name1">아이스 아메리카노</string>
+    <string name="menu_components2_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components2_name2">딸기 티라미수</string>
+    <string name="menu_components2_desc2">메뉴 설명을 입력해주세요.</string>
+
+    <string name="menu_name3">콜드 브루와 소금우유생크림 와플</string>
+    <string name="menu_desc3">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components3_name1">콜드 브루</string>
+    <string name="menu_components3_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components3_name2">소금우유생크림 와플</string>
+    <string name="menu_components3_desc2">메뉴 설명을 입력해주세요.</string>
+
+    <string name="menu_name4">자몽 에이드와 아이스크림 크로플</string>
+    <string name="menu_desc4">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components4_name1">자몽 에이드</string>
+    <string name="menu_components4_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components4_name2">아이스크림 크로플</string>
+    <string name="menu_components4_desc2">메뉴 설명을 입력해주세요.</string>
+
+    <string name="menu_name5">초코 라떼와 황치즈 쿠키</string>
+    <string name="menu_desc5">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components5_name1">초코 라떼</string>
+    <string name="menu_components5_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components5_name2">황치즈 쿠키</string>
+    <string name="menu_components5_desc2">메뉴 설명을 입력해주세요.</string>
 
 </resources>

@@ -27,8 +27,10 @@
     <string name="home_feed_content3">Salt milk waffle, a crispy waffle with a little salt and fresh cream for a sweet and salty taste</string>
 
     <string name="home_feed_name4">Garam Im</string>
-    <string name="home_feed_time4">.07.24</string>
+    <string name="home_feed_time4">01.07.24</string>
     <string name="home_feed_content4">내용 제공해주시나요3</string>
+
+    <string name="home_snackbar">Tickets for the dessert fair will be drawn on December 25, 2024!</string>
 
     <!--상세 화면-->
     <string name="detail_title">Detail Page</string>
@@ -54,4 +56,40 @@
 
     <!--마이페이지-->
     <string name="my_page_toolbar_title">MyPage</string>
+
+    <!-- 메뉴 -->
+    <string name="menu_name1">Oolong tea &amp; Earl Grey Bread Pudding</string>
+    <string name="menu_desc1">If you enjoy oolong tea and earl grey bread pudding together, you\'ll feel twice full</string>
+    <string name="menu_components1_name1">Oolong tea</string>
+    <string name="menu_components1_desc1">Please enter the menu description.</string>
+    <string name="menu_components1_name2">Earl Grey Bread Pudding</string>
+    <string name="menu_components1_desc2">Please enter the menu description.</string>
+
+    <string name="menu_name2">Ice Americano &amp; Strawberry Tiramisu</string>
+    <string name="menu_desc2">Please enter the menu description.</string>
+    <string name="menu_components2_name1">Ice Americano</string>
+    <string name="menu_components2_desc1">Please enter the menu description.</string>
+    <string name="menu_components2_name2">Strawberry Tiramisu</string>
+    <string name="menu_components2_desc2">Please enter the menu description.</string>
+
+    <string name="menu_name3">Cold Brew Coffee &amp; Salty Milk Cream Waffle</string>
+    <string name="menu_desc3">Please enter the menu description.</string>
+    <string name="menu_components3_name1">Cold Brew Coffee</string>
+    <string name="menu_components3_desc1">Please enter the menu description.</string>
+    <string name="menu_components3_name2">Salty Milk Cream Waffle</string>
+    <string name="menu_components3_desc2">Please enter the menu description.</string>
+
+    <string name="menu_name4">Grapefruit Ade &amp; Ice Cream Croffle</string>
+    <string name="menu_desc4">Please enter the menu description.</string>
+    <string name="menu_components4_name1">Grapefruit Ade</string>
+    <string name="menu_components4_desc1">Please enter the menu description.</string>
+    <string name="menu_components4_name2">Ice Cream Croffle</string>
+    <string name="menu_components4_desc2">Please enter the menu description.</string>
+
+    <string name="menu_name5">Chocolate Latte &amp; Yellow Cheese Cookies</string>
+    <string name="menu_desc5">Please enter the menu description.</string>
+    <string name="menu_components5_name1">Chocolate Latte</string>
+    <string name="menu_components5_desc1">Please enter the menu description.</string>
+    <string name="menu_components5_name2">Yellow Cheese Cookies</string>
+    <string name="menu_components5_desc2">Please enter the menu description.</string>
 </resources>
