@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">harmony_cafe</string>
+    <string name="app_name">harmony</string>
 
     <!--로그인-->
     <string name="login_id">Please enter your ID.</string>
@@ -8,6 +8,9 @@
     <string name="login_loginbtn">Login</string>
     <string name="login_signupbtn">Not a member?</string>
     <string name="login_title">harmony</string>
+    <string name="login_empty">Please enter both ID and password.</string>
+    <string name="login_iderror">This ID is not registered.</string>
+    <string name="login_pwerror">Please re-enter your password</string>
 
     <!-- 홈화면 -->
     <string name="home_welcome_message">Welcome, %s</string>
@@ -21,7 +24,7 @@
 
     <string name="home_feed_name3">Yooho Song</string>
     <string name="home_feed_time3">02.07.24</string>
-    <string name="home_feed_content3">내용 제공해주시나요?2</string>
+    <string name="home_feed_content3">Salt milk waffle, a crispy waffle with a little salt and fresh cream for a sweet and salty taste</string>
 
     <string name="home_feed_name4">Garam Im</string>
     <string name="home_feed_time4">01.07.24</string>
@@ -41,6 +44,15 @@
     <string name="signup_signupbtn">SIGN UP</string>
     <string name="signup_introduce">Please enter your self-introduction</string>
     <string name="signup_dupbtn">Check Availability</string>
+    <string name="sginup_emptyid">Please enter your ID.</string>
+    <string name="sginup_idblank">Space characters cannot be used in the ID.</string>
+    <string name="sginup_iderror">ID can be created with upper and lower case English letters, numbers, and special characters ($@!%*#?&amp;).</string>
+    <string name="sginup_idassigned">This ID is already in use.</string>
+    <string name="sginup_idok">This ID is available.</string>
+    <string name="sginup_dup">Please check for ID duplication</string>
+    <string name="sginup_pwempty">Please fill in the password and name fields.</string>
+    <string name="sginup_pwblank">Password cannot contain spaces.</string>
+    <string name="sginup_pwerror">Password must be at least 8 characters including letters, numbers, and special characters ($@!%*#?&amp;).</string>
 
     <!--마이페이지-->
     <string name="my_page_toolbar_title">MyPage</string>
