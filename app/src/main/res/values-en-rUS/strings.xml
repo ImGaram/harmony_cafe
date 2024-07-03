@@ -7,7 +7,7 @@
     <string name="login_password">Please enter your Password.</string>
     <string name="login_loginbtn">Login</string>
     <string name="login_signupbtn">Not a member?</string>
-    <string name="signup_title">Sign Up</string>
+    <string name="login_title">harmony</string>
 
     <!-- 홈화면 -->
     <string name="home_welcome_message">Welcome, OO</string>
@@ -31,6 +31,14 @@
     <string name="detail_title">Detail Page</string>
     <string name="detail_img_desc">Menu image</string>
     <string name="detail_sub_title">Menu composition</string>
+
+
+    <!--회원가입-->
+    <string name="signup_title">Sign Up</string>
+    <string name="signup_name">Please enter your name.</string>
+    <string name="signup_signupbtn">SIGN UP</string>
+    <string name="signup_introduce">Please enter your self-introduction</string>
+    <string name="signup_dupbtn">Check Availability</string>
 
     <!--마이페이지-->
     <string name="my_page_toolbar_title">MyPage</string>

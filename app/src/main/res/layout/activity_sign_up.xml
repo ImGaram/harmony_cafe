@@ -5,13 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/login_background"
     tools:context=".SignUpActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/signup_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="@color/login_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" >
@@ -21,6 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@string/signup_title"
             android:layout_gravity="center"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"/>
     </androidx.appcompat.widget.Toolbar>
@@ -80,9 +82,10 @@
             android:id="@+id/signup_dupbtn"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:paddingHorizontal="4dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/login_loginbtn"
-            android:text="중복 확인"
+            android:text="@string/signup_dupbtn"
             android:textStyle="bold"
             android:textSize="16sp"/>
 
@@ -98,7 +101,7 @@
         android:background="@drawable/login_graybox"
         android:ems="10"
         android:hint="@string/login_password"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:paddingVertical="12dp"
         android:paddingStart="16dp"
         android:textSize="16sp"
