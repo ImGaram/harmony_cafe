@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.snackbar.Snackbar
+import com.harmony6.harmony_cafe.data.MenuObject.initMenu
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +21,11 @@ class HomeActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        initMenu()      // 메뉴 초기화
+
         val detailImage1 = findViewById<ImageView>(R.id.home_imageView1)
-        val detailImage3 = findViewById<ImageView>(R.id.home_imageView3)
         val detailImage2 = findViewById<ImageView>(R.id.home_imageView2)
+        val detailImage3 = findViewById<ImageView>(R.id.home_imageView3)
         val detailImage4 = findViewById<ImageView>(R.id.home_imageView4)
         val detailImage5 = findViewById<ImageView>(R.id.home_imageView5)
         val nameTextView = findViewById<TextView>(R.id.home_welcome_message)

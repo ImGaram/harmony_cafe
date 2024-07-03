@@ -29,7 +29,7 @@
 
     <string name="home_feed_name4">임가람</string>
     <string name="home_feed_time4">24.07.02</string>
-    <string name="home_feed_content4">내용 제공해주시나요3</string>
+    <string name="home_feed_content4">자몽의 과육에 물, 설탕, 탄산수를 섞은 톡 쏘는 맛이 일품인 음료!</string>
 
     <string name="home_snackbar">2024년 12월 25일 진행되는 디저트 페어 입장권을 추첨합니다!</string>
 
@@ -57,6 +57,9 @@
 
     <!--마이페이지-->
     <string name="my_page_toolbar_title">마이페이지</string>
+    <string name="my_page_user_menu1">%s의 메뉴 1</string>
+    <string name="my_page_user_menu2">%s의 메뉴 2</string>
+    <string name="my_page_user_menu3">%s의 메뉴 3</string>
 
     <!-- 메뉴 -->
     <string name="menu_name1">우롱티와 얼그레이 브레드푸딩</string>

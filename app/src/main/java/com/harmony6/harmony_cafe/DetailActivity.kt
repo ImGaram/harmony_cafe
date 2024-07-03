@@ -17,13 +17,13 @@ class DetailActivity : AppCompatActivity() {
     private lateinit var components: List<Triple<ImageView, TextView, TextView>>
     private val menu = Menu(
         "메뉴 이름 1",
-        "메뉴 설명 1", R.drawable.img_my_page_menu,
+        "메뉴 설명 1", R.drawable.img_component_ice_cream_crople,
         "사용자 이름 1",
         LocalDate.of(2024, 1, 4),
         listOf(
-            Components("메뉴 구성 이름 1", "메뉴 구성 설명 1", R.drawable.img_my_page_menu),
-            Components("메뉴 구성 이름 2", "메뉴 구성 설명 2", R.drawable.img_my_page_menu),
-            Components("메뉴 구성 이름 3", "메뉴 구성 설명 3", R.drawable.img_my_page_menu),
+            Components("메뉴 구성 이름 1", "메뉴 구성 설명 1", R.drawable.img_component_ice_cream_crople),
+            Components("메뉴 구성 이름 2", "메뉴 구성 설명 2", R.drawable.img_component_ice_cream_crople),
+            Components("메뉴 구성 이름 3", "메뉴 구성 설명 3", R.drawable.img_component_ice_cream_crople),
         )
     )
 
