@@ -38,8 +38,8 @@ class LogInActivity : AppCompatActivity() {
 
 
         login.setOnClickListener{
-            val id=editId.text.toString().trim()
-            val pw=editPw.text.toString().trim()
+            val id=editId.text.toString()
+            val pw=editPw.text.toString()
             if(id.isEmpty()||pw.isEmpty()){
                 Toast.makeText(this, "아이디와 패스워드 모두 입력해주세요.", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
@@ -54,7 +54,6 @@ class LogInActivity : AppCompatActivity() {
             val intent=Intent(this, HomeActivity::class.java)
             intent.putExtra("user",users[id])
             startActivity(intent)
-
         }
 
 
@@ -70,7 +69,9 @@ class LogInActivity : AppCompatActivity() {
         }
 
         signup.setOnClickListener{
-            launcher.launch(Intent(this,SignUpActivity::class.java))
+            val intent=Intent(this,SignUpActivity::class.java)
+            intent.putStringArrayListExtra("ids",ArrayList(users.keys))
+            launcher.launch(intent)
         }
 
     }
