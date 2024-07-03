@@ -28,6 +28,8 @@
     <string name="home_feed_time4">24.07.02</string>
     <string name="home_feed_content4">내용 제공해주시나요3</string>
 
+    <string name="home_snackbar">2024년 12월 25일 진행되는 디저트 페어 입장권을 추첨합니다!</string>
+
 
     <!--상세화면-->
     <string name="detail_title">상세 화면</string>
