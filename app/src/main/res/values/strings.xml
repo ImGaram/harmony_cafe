@@ -11,7 +11,7 @@
 
 
     <!-- 홈화면 -->
-    <string name="home_welcome_message">환영합니다, OO님!</string>
+    <string name="home_welcome_message">환영합니다, %s님!</string>
     <string name="home_feed_name1">김보라</string>
     <string name="home_feed_time1">24.07.03</string>
     <string name="home_feed_content1">초콜릿맛 아이스크림이 3스쿱, 초콜릿 드리즐, 그리고 흰 우유로 조합한 달달한 당충전 음료!</string>
