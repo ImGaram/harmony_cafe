@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">harmony_cafe</string>
+    <string name="app_name">harmony</string>
 
     <!--로그인-->
     <string name="login_id">Please enter your ID.</string>
