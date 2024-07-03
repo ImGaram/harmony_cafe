@@ -76,11 +76,11 @@
     <string name="menu_components2_desc2">Please enter the menu description.</string>
 
     <string name="menu_name3">Cold Brew Coffee &amp; Salty Milk Cream Waffle</string>
-    <string name="menu_desc3">Please enter the menu description.</string>
+    <string name="menu_desc3">A combination of salted milk whipped cream waffles with a sweet and salty taste, and cold brew to balance out the slightly greasy taste.</string>
     <string name="menu_components3_name1">Cold Brew Coffee</string>
-    <string name="menu_components3_desc1">Please enter the menu description.</string>
+    <string name="menu_components3_desc1">Unlike regular coffee, this coffee is steeped in cold water for a long time, making it less bitter and smoother to drink.</string>
     <string name="menu_components3_name2">Salty Milk Cream Waffle</string>
-    <string name="menu_components3_desc2">Please enter the menu description.</string>
+    <string name="menu_components3_desc2">This dessert is made by adding a little salt to fresh milk cream to create a sweet-salty balance and reduce the greasiness.</string>
 
     <string name="menu_name4">Grapefruit Ade &amp; Ice Cream Croffle</string>
     <string name="menu_desc4">Please enter the menu description.</string>
