@@ -80,9 +80,10 @@
             android:id="@+id/signup_dupbtn"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:paddingHorizontal="4dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/login_loginbtn"
-            android:text="중복 확인"
+            android:text="@string/signup_dupbtn"
             android:textStyle="bold"
             android:textSize="16sp"/>
 
@@ -98,7 +99,7 @@
         android:background="@drawable/login_graybox"
         android:ems="10"
         android:hint="@string/login_password"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:paddingVertical="12dp"
         android:paddingStart="16dp"
         android:textSize="16sp"
