@@ -19,6 +19,5 @@ class HomeActivity : AppCompatActivity() {
         }
 
         val feedProfileImage = findViewById<ImageView>(R.id.home_feed_title_profile1)
-//        binding.ivUserImage.clipToOutline = true
     }
 }
