@@ -20,8 +20,8 @@
     <string name="home_feed_content1">초콜릿맛 아이스크림이 3스쿱, 초콜릿 드리즐, 그리고 흰 우유로 조합한 달달한 당충전 음료!</string>
 
     <string name="home_feed_name2">김태영</string>
-    <string name="home_feed_time2">24.07.03</string>
-    <string name="home_feed_content2">내용 제공해주시나요?</string>
+    <string name="home_feed_time2">22.04.05</string>
+    <string name="home_feed_content2">국내산 쌀 카스테라, 유기농 밤과 마스카포네, 키리치즈가 함께 어우러진 수제 치즈케이크. 꼭, 꼭, 꼭, 꼭!!! 드세요!!!! 가로수길 당옥!!!@@@@@@@@@@@@</string>
 
     <string name="home_feed_name3">송유호</string>
     <string name="home_feed_time3">24.07.02</string>
@@ -70,11 +70,11 @@
     <string name="menu_components1_desc2">향긋한 얼그레이와 쌉싸름한 카카오닙스, 그리고 오독오독 호두까지. 너무 달지도, 쓰지도 않고 조화롭게 맛있는 브레드 푸딩도 드셔보세요.</string>
 
     <string name="menu_name2">아이스 아메리카노와 딸기 티라미수</string>
-    <string name="menu_desc2">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_desc2">쓰고 깊은 맛과 달콤하고 상큼한 맛이 어우러지니, 마치 더운 여름 날에 서늘한 그늘 아래 앉아 봄날의 향기를 만끽하는 것 같구나. 이 얼마나 조화로운가?</string>
     <string name="menu_components2_name1">아이스 아메리카노</string>
-    <string name="menu_components2_desc1">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components2_desc1">차가운 물에 연하게 탄 검은 물이랴, 마치 녹음 짙은 여름날 얼음처럼 서늘한 느낌을 준다네. 그 맛은 쓰고 깊으며 몸을 시원하게 해 주니, 더위를 물리치기에 더 없이 좋구나.</string>
     <string name="menu_components2_name2">딸기 티라미수</string>
-    <string name="menu_components2_desc2">메뉴 설명을 입력해주세요.</string>
+    <string name="menu_components2_desc2">부드러운 하얀 빵 사이에 붉은 딸기와 달콤한 크림을 겹겹이 쌓아 만든 진미라네. 그 맛은 달콤하기도 상큼하기도 하여 한 입 머금으면 마치 봄날의 화사한 꽃밭에 있는 듯한 기분을 느끼게 한다네.</string>
 
     <string name="menu_name3">콜드 브루와 소금우유생크림 와플</string>
     <string name="menu_desc3">단짠의 맛이 어우러지는 소금우유생크림 와플에, 살짝 존재하는 느끼함을 잡아주는 콜드브루의 조화.</string>

@@ -57,11 +57,6 @@ class DetailActivity : AppCompatActivity() {
                 findViewById(R.id.detail_components2_img),
                 findViewById(R.id.detail_components2_name),
                 findViewById(R.id.detail_components2_desc)
-            ),
-            Triple(
-                findViewById(R.id.detail_components3_img),
-                findViewById(R.id.detail_components3_name),
-                findViewById(R.id.detail_components3_desc)
             )
         )
     }
