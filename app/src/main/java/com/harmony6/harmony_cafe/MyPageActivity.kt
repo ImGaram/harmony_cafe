@@ -1,6 +1,7 @@
 package com.harmony6.harmony_cafe
 
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +17,8 @@ class MyPageActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val backImage = findViewById<ImageView>(R.id.my_page_image_back)
+        backImage.setOnClickListener { finish() }
     }
 }
