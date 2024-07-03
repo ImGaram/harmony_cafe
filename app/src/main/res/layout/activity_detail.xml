@@ -133,7 +133,6 @@
                 android:layout_marginTop="16dp"
                 android:background="@drawable/bg_circle"
                 android:scaleType="centerCrop"
-                android:clipToOutline="true"
                 app:layout_constraintStart_toStartOf="@id/detail_components_menu"
                 app:layout_constraintTop_toBottomOf="@id/detail_components_menu" />
 
@@ -164,7 +163,6 @@
                 android:layout_marginTop="16dp"
                 android:background="@drawable/bg_circle"
                 android:scaleType="centerCrop"
-                android:clipToOutline="true"
                 app:layout_constraintStart_toStartOf="@id/detail_components1_img"
                 app:layout_constraintTop_toBottomOf="@id/detail_components1_img" />
 
@@ -195,7 +193,6 @@
                 android:layout_marginTop="16dp"
                 android:background="@drawable/bg_circle"
                 android:scaleType="centerCrop"
-                android:clipToOutline="true"
                 app:layout_constraintStart_toStartOf="@id/detail_components2_img"
                 app:layout_constraintTop_toBottomOf="@id/detail_components2_img" />
 
