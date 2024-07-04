@@ -25,20 +25,22 @@ class HomeActivity : AppCompatActivity() {
         }
         initMenu()      // 메뉴 초기화
 
+
+        val menuList = MenuObject.menuList
+        val numList = (0..4).toList()
+        val randomNum = numList.shuffled()
+
         // Horizontal ScrollView 메뉴
         val detailImage1 = findViewById<ImageView>(R.id.home_imageView1)
         val detailImage2 = findViewById<ImageView>(R.id.home_imageView2)
         val detailImage3 = findViewById<ImageView>(R.id.home_imageView3)
         val detailImage4 = findViewById<ImageView>(R.id.home_imageView4)
         val detailImage5 = findViewById<ImageView>(R.id.home_imageView5)
-
-        val menuList = MenuObject.menuList
-
-        detailImage1.setImageResource(menuList[0].img)
-//        detailImage2.setImageResource(menuList[0].img)
-//        detailImage3.setImageResource(menuList[0].img)
-//        detailImage4.setImageResource(menuList[0].img)
-//        detailImage5.setImageResource(menuList[0].img)
+        detailImage1.setImageResource(menuList[randomNum[0]].img)
+        detailImage2.setImageResource(menuList[randomNum[1]].img)
+        detailImage3.setImageResource(menuList[randomNum[2]].img)
+        detailImage4.setImageResource(menuList[randomNum[3]].img)
+        detailImage5.setImageResource(menuList[randomNum[4]].img)
 
 
         // 앱바 views
@@ -59,40 +61,35 @@ class HomeActivity : AppCompatActivity() {
 
 
         val detailIntent = Intent(this, DetailActivity::class.java)
-
-
-
-
-//        Log.d("Home log!", "asfxdfasdfasdf") << 나중에 제가 삭제할게요
         fun putIntent(detailNum: Int){
             when(detailNum){
+                0 -> {
+                    detailIntent.putExtra("menuKey", menuList[randomNum[0]].name)
+                    startActivity(detailIntent)
+                }
                 1 -> {
-                    detailIntent.putExtra("menuKey", getString(R.string.menu_name1))
+                    detailIntent.putExtra("menuKey", menuList[randomNum[1]].name)
                     startActivity(detailIntent)
                 }
                 2 -> {
-                    detailIntent.putExtra("menuKey", getString(R.string.menu_name2))
+                    detailIntent.putExtra("menuKey", menuList[randomNum[2]].name)
                     startActivity(detailIntent)
                 }
                 3 -> {
-                    detailIntent.putExtra("menuKey", getString(R.string.menu_name3))
+                    detailIntent.putExtra("menuKey", menuList[randomNum[3]].name)
                     startActivity(detailIntent)
                 }
                 4 -> {
-                    detailIntent.putExtra("menuKey", getString(R.string.menu_name4))
-                    startActivity(detailIntent)
-                }
-                5 -> {
-                    detailIntent.putExtra("menuKey", getString(R.string.menu_name5))
+                    detailIntent.putExtra("menuKey", menuList[randomNum[4]].name)
                     startActivity(detailIntent)
                 }
             }
         }
 
-        detailImage1.setOnClickListener{putIntent(1)}
-        detailImage2.setOnClickListener{putIntent(2)}
-        detailImage3.setOnClickListener{putIntent(3)}
-        detailImage4.setOnClickListener{putIntent(4)}
-        detailImage5.setOnClickListener{putIntent(5)}
+        detailImage1.setOnClickListener{putIntent(0)}
+        detailImage2.setOnClickListener{putIntent(1)}
+        detailImage3.setOnClickListener{putIntent(2)}
+        detailImage4.setOnClickListener{putIntent(3)}
+        detailImage5.setOnClickListener{putIntent(4)}
     }
 }
