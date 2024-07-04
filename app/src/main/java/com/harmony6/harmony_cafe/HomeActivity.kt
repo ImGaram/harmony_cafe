@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.airbnb.lottie.LottieAnimationView
 import com.google.android.material.snackbar.Snackbar
 import com.harmony6.harmony_cafe.data.MenuObject
 import com.harmony6.harmony_cafe.data.MenuObject.initMenu
@@ -29,6 +30,9 @@ class HomeActivity : AppCompatActivity() {
         val menuList = MenuObject.menuList
         val numList = (0..4).toList()
         val randomNum = numList.shuffled()
+
+        val lottie = findViewById<LottieAnimationView>(R.id.lottie)
+        lottie.playAnimation()
 
         // Horizontal ScrollView 메뉴
         val detailImage1 = findViewById<ImageView>(R.id.home_imageView1)
