@@ -1,10 +1,13 @@
 package com.harmony6.harmony_cafe
 
+import android.animation.Animator
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -32,8 +35,8 @@ class HomeActivity : AppCompatActivity() {
         val randomNum = numList.shuffled()
 
         val lottie = findViewById<LottieAnimationView>(R.id.lottie)
-        lottie.playAnimation()
 
+        val appLogo = findViewById<TextView>(R.id.home_app_name)
         // Horizontal ScrollView 메뉴
         val detailImage1 = findViewById<ImageView>(R.id.home_imageView1)
         val detailImage2 = findViewById<ImageView>(R.id.home_imageView2)
@@ -45,6 +48,25 @@ class HomeActivity : AppCompatActivity() {
         detailImage3.setImageResource(menuList[randomNum[2]].img)
         detailImage4.setImageResource(menuList[randomNum[3]].img)
         detailImage5.setImageResource(menuList[randomNum[4]].img)
+
+        lottie.addAnimatorListener(object : Animator.AnimatorListener {
+            override fun onAnimationStart(p0: Animator) {}
+
+            override fun onAnimationEnd(animation: Animator, isReverse: Boolean) {}
+
+            override fun onAnimationEnd(p0: Animator) {}
+
+            override fun onAnimationCancel(p0: Animator) {}
+
+            override fun onAnimationRepeat(p0: Animator) {}
+        })
+
+        appLogo.setOnLongClickListener {
+            Toast.makeText(this,"꾸우우욱", Toast.LENGTH_SHORT).show()
+            lottie.visibility = View.VISIBLE
+            lottie.playAnimation()
+            return@setOnLongClickListener(true)
+        }
 
 
         // 앱바 views
