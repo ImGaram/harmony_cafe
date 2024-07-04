@@ -97,4 +97,10 @@
     <string name="menu_components5_name2">황치즈 쿠키</string>
     <string name="menu_components5_desc2">꼬숩 짭쪼름 달달한 황치즈 쿠키! 한 번 맛 보면 헤어나오지 못한대요~</string>
 
+    <!--사이트-->
+    <string name="menu_site1" translatable="false">https://map.naver.com/p/entry/place/1113831375?c=15.00,0,0,0,dh</string>
+    <string name="menu_site2" translatable="false">https://map.naver.com/p/entry/place/1489745174?c=15.00,0,0,0,dh</string>
+    <string name="menu_site3" translatable="false">https://map.naver.com/p/entry/place/1204612604?c=15.00,0,0,0,dh</string>
+    <string name="menu_site4" translatable="false">https://map.naver.com/p/entry/place/767562269?c=14.00,0,0,0,dh</string>
+    <string name="menu_site5" translatable="false">https://map.naver.com/p/entry/place/36841696?c=14.00,0,0,0,dh</string>
 </resources>

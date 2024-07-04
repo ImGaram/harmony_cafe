@@ -51,15 +51,22 @@ object MenuObject {
             getString(R.string.menu_components5_desc2),
         )
         val userNameList = listOf("김보라", "김태영", "송유호", "임가람", "김보라")
+        val menuSiteList = listOf(
+            getString(R.string.menu_site1),
+            getString(R.string.menu_site2),
+            getString(R.string.menu_site3),
+            getString(R.string.menu_site4),
+            getString(R.string.menu_site5)
+        )
         val menuImageList = listOf(
-            R.drawable.img_component_ice_cream_crople,
+            R.drawable.img_bread_pudding,
             R.drawable.img_menu_taeyoung,
-            R.drawable.img_component_ice_cream_crople,
             R.drawable.img_menu_imgaram,
+            R.drawable.img_component_ice_cream_crople,
             R.drawable.img_component_ice_cream_crople,
         )
         val menuComponentImageList = listOf(
-            listOf(R.drawable.home_feed_profile1, R.drawable.home_feed_profile1),
+            listOf(R.drawable.img_bread_pudding, R.drawable.home_feed_image1),
             listOf(
                 R.drawable.img_component_ice_americano,
                 R.drawable.img_component_strawberry_tiramisu
@@ -78,6 +85,7 @@ object MenuObject {
                 desc = menuDescriptionList[i],
                 img = menuImageList[i],
                 createdDate = LocalDate.of(2024, 7, 2),
+                site = menuSiteList[i],
                 username = userNameList[i],
                 components = listOf(
                     Components(

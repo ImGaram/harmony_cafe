@@ -36,6 +36,7 @@ data class Menu(
     val name: String, val desc: String, val img: Int,
     val username: String,
     val createdDate: LocalDate,
+    val site: String,
     val components: List<Components> = listOf()
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
@@ -44,6 +45,7 @@ data class Menu(
         parcel.readInt(),
         parcel.readString().toString(),
         parcel.readValue(LocalDate::class.java.classLoader) as LocalDate,
+        parcel.readString().toString(),
         parcel.createTypedArrayList(Components.CREATOR) ?: listOf()
     )
 
@@ -57,6 +59,7 @@ data class Menu(
         parcel.writeInt(img)
         parcel.writeString(username)
         parcel.writeValue(createdDate)
+        parcel.writeString(site)
         parcel.writeTypedList(components)
     }
 
