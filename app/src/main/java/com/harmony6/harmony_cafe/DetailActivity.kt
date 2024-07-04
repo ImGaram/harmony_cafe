@@ -1,5 +1,7 @@
 package com.harmony6.harmony_cafe
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.ImageView
@@ -15,6 +17,7 @@ import com.harmony6.harmony_cafe.data.MenuObject
 class DetailActivity : AppCompatActivity() {
     private lateinit var components: List<Triple<ImageView, TextView, TextView>>
 
+    var delay=0L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -36,6 +39,16 @@ class DetailActivity : AppCompatActivity() {
 
         setComponents()
         setMenu(menu)
+
+        findViewById<ImageView>(R.id.detail_menu_img).setOnClickListener {
+            if(System.currentTimeMillis()>delay){
+                delay=System.currentTimeMillis() +200
+                return@setOnClickListener
+            }else{
+                menu?.let { startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(it.site))) }
+            }
+
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
