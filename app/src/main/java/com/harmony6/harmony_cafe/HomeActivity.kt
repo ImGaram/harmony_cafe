@@ -62,7 +62,6 @@ class HomeActivity : AppCompatActivity() {
         })
 
         appLogo.setOnLongClickListener {
-            Toast.makeText(this,"꾸우우욱", Toast.LENGTH_SHORT).show()
             lottie.visibility = View.VISIBLE
             lottie.playAnimation()
             return@setOnLongClickListener(true)
