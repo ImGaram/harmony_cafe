@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">harmony</string>
+    <string name="more">more</string>
 
     <!--로그인-->
     <string name="login_id">Please enter your ID.</string>
@@ -14,7 +15,7 @@
 
     <!-- 홈화면 -->
     <string name="home_welcome_message">Welcome, %s</string>
-    <string name="home_feed_name1">Bora Kim</string>
+    <string name="home_feed_name1">BoraDori</string>
     <string name="home_feed_time1">30.06.24</string>
     <string name="home_feed_content1">White milk with 3 scoops of chocolate ice cream and chocolate drizzle will fill up sugar!</string>
 
