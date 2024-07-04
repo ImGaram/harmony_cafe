@@ -61,8 +61,8 @@ object MenuObject {
         val menuImageList = listOf(
             R.drawable.img_bread_pudding,
             R.drawable.img_menu_taeyoung,
-            R.drawable.img_menu_imgaram,
             R.drawable.img_component_ice_cream_crople,
+            R.drawable.img_menu_imgaram,
             R.drawable.img_component_ice_cream_crople,
         )
         val menuComponentImageList = listOf(
