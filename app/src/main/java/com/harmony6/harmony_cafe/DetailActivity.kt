@@ -3,9 +3,6 @@ package com.harmony6.harmony_cafe
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.text.SpannableString
-import android.text.Spanned
-import android.text.style.ForegroundColorSpan
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
@@ -86,10 +83,9 @@ class DetailActivity : AppCompatActivity() {
                 text = menu.createdDate.toString()
             }
             findViewById<TextView>(R.id.detail_menu_desc).apply {
-                setEllipsis(this, menu.desc)
-
+                text = menu.desc
                 setOnClickListener {
-                    setEllipsis(this, menu.desc)
+                    maxLines = if (maxLines == 3) Int.MAX_VALUE else 3
                 }
             }
 
@@ -97,46 +93,16 @@ class DetailActivity : AppCompatActivity() {
                 item.first.setImageResource(menu.components[idx].img)
                 item.first.clipToOutline = true
                 item.second.text = menu.components[idx].name
-                item.third.text = menu.components[idx].desc
+                item.third.apply {
+                    text = menu.components[idx].desc
+                    setOnClickListener {
+                        maxLines = if (maxLines == 2) Int.MAX_VALUE else 2
+                    }
+                }
             }
         }
     }
 
     // 메뉴 이름으로 메뉴 찾기
     private fun getMenuByMenuName(name: String) = MenuObject.menuList.find { it.name == name }
-
-    private fun setEllipsis(view: TextView, text: String, maxLine: Int = 3) {
-        view.text = text
-
-        view.post {
-            if (view.lineCount >= maxLine) {
-                val sourceString: String
-                val suffix: String
-                val lineEndIndex = view.layout.getLineVisibleEnd(maxLine - 1)
-
-                if (view.tag == null || view.tag.toString()
-                        .contains(getString(R.string.detail_fold))
-                ) {
-                    suffix = getString(R.string.detail_more)
-                    val shortenedText = text.substring(0, lineEndIndex - suffix.length)
-                    sourceString = shortenedText + suffix
-                } else {
-                    suffix = getString(R.string.detail_fold)
-                    sourceString = text + suffix
-                }
-
-                val spannableString = SpannableString(sourceString)
-
-                spannableString.setSpan(
-                    ForegroundColorSpan(resources.getColor(R.color.highlight, theme)),
-                    spannableString.length - suffix.length,
-                    spannableString.length,
-                    Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
-                )
-
-                view.tag = spannableString
-                view.text = spannableString
-            }
-        }
-    }
 }

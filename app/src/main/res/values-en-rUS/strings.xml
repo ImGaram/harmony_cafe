@@ -36,8 +36,6 @@
     <string name="detail_title">Detail Page</string>
     <string name="detail_img_desc">Menu image</string>
     <string name="detail_sub_title">Menu composition</string>
-    <string name="detail_more">&#160;…more</string>
-    <string name="detail_fold">&#160;fold</string>
 
     <!--회원가입-->
     <string name="signup_title">Sign Up</string>

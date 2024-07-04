@@ -38,8 +38,6 @@
     <string name="detail_title">상세 화면</string>
     <string name="detail_img_desc">메뉴 이미지</string>
     <string name="detail_sub_title">메뉴 구성</string>
-    <string name="detail_more">&#160;…더보기</string>
-    <string name="detail_fold">&#160;접기</string>
 
     <!--회원가입-->
     <string name="signup_title">회원가입</string>
