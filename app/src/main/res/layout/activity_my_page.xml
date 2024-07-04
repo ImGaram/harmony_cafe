@@ -5,12 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/login_background"
     tools:context=".MyPageActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/my_page_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/login_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -32,6 +34,7 @@
             android:layout_gravity="center"
             android:text="@string/my_page_toolbar_title"
             android:textSize="16sp"
+            android:textColor="@color/black_shade"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +47,8 @@
         android:layout_height="70dp"
         android:layout_margin="16dp"
         android:background="@drawable/bg_my_page_user_image"
+        android:src="@drawable/home_feed_profile2"
+        android:clipToOutline="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/my_page_toolbar" />
 
@@ -127,6 +132,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_margin="16dp"
+                    android:src="@drawable/home_feed_profile2"
                     android:clipToOutline="true"
                     android:background="@drawable/bg_my_page_user_image"
                     app:layout_constraintStart_toStartOf="parent"
@@ -166,7 +172,7 @@
                     android:maxLines="2"
                     android:text="메뉴 설명"
                     android:textSize="14sp"
-                    android:textColor="#575757"
+                    android:textColor="@color/black_shade"
                     android:layout_marginHorizontal="16dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="16dp"
@@ -197,6 +203,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_margin="16dp"
+                    android:src="@drawable/home_feed_profile2"
                     android:clipToOutline="true"
                     android:background="@drawable/bg_my_page_user_image"
                     app:layout_constraintStart_toStartOf="parent"
@@ -236,7 +243,7 @@
                     android:maxLines="2"
                     android:text="메뉴 설명"
                     android:textSize="14sp"
-                    android:textColor="#575757"
+                    android:textColor="@color/black_shade"
                     android:layout_marginHorizontal="16dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="16dp"
@@ -267,6 +274,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_margin="16dp"
+                    android:src="@drawable/home_feed_profile2"
+                    android:clipToOutline="true"
                     android:background="@drawable/bg_my_page_user_image"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/my_page_text_user_menu3" />
@@ -305,7 +314,7 @@
                     android:maxLines="2"
                     android:text="메뉴 설명"
                     android:textSize="14sp"
-                    android:textColor="#575757"
+                    android:textColor="@color/black_shade"
                     android:layout_marginHorizontal="16dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="16dp"
