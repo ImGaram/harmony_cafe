@@ -78,13 +78,20 @@ object MenuObject {
             ),
             listOf(R.drawable.img_component_tea_cocktail, R.drawable.img_component_cheesecake)
         )
+        val createdDateList = listOf<LocalDate>(
+            LocalDate.of(2024, 7, 3),
+            LocalDate.of(2022, 4, 5),
+            LocalDate.of(2024, 7, 2),
+            LocalDate.of(2024, 7, 2),
+            LocalDate.of(2024, 7, 4),
+        )
 
         for (i in menuNameList.indices) {
             val menu = Menu(
                 name = menuNameList[i],
                 desc = menuDescriptionList[i],
                 img = menuImageList[i],
-                createdDate = LocalDate.of(2024, 7, 2),
+                createdDate = createdDateList[i],
                 site = menuSiteList[i],
                 username = userNameList[i],
                 components = listOf(
