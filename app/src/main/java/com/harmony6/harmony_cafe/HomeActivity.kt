@@ -52,7 +52,9 @@ class HomeActivity : AppCompatActivity() {
         lottie.addAnimatorListener(object : Animator.AnimatorListener {
             override fun onAnimationStart(p0: Animator) {}
 
-            override fun onAnimationEnd(animation: Animator, isReverse: Boolean) {}
+            override fun onAnimationEnd(animation: Animator, isReverse: Boolean) {
+                lottie.visibility = View.GONE
+            }
 
             override fun onAnimationEnd(p0: Animator) {}
 

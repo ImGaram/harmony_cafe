@@ -89,10 +89,10 @@
     <string name="menu_components4_name2">Ice Cream Croffle</string>
     <string name="menu_components4_desc2">Please enter the menu description.</string>
 
-    <string name="menu_name5">Chocolate Latte &amp; Yellow Cheese Cookies</string>
-    <string name="menu_desc5">Chocolate latte made of dark chocolate and cookies full of yellow cheese</string>
-    <string name="menu_components5_name1">Chocolate Latte</string>
-    <string name="menu_components5_desc1">Belgian Dark Chocolate Meets Domestic A++ Milk! Get a deeper and deeper flavor.</string>
-    <string name="menu_components5_name2">Yellow Cheese Cookies</string>
-    <string name="menu_components5_desc2">Sweet yellow cheese cookies! Once you taste it, you can\'t get out of it.</string>
+    <string name="menu_name5">Wedding tea cocktail &amp; Basque cheesecake</string>
+    <string name="menu_desc5">Wedding imperial cocktail and soft basque cheesecake! Harmonious? A combination of twice the softness!</string>
+    <string name="menu_components5_name1">Wedding tea cocktail</string>
+    <string name="menu_components5_desc1">A tea cocktail blended with France\'s finest black tea wedding Imperial! The fragrant caramel and soft throat are excellent.</string>
+    <string name="menu_components5_name2">Basque cheesecake</string>
+    <string name="menu_components5_desc2">The Basque Cheesecake, which has a smoky scent to give you a much more luxurious flavor, will melt away as soon as you put it in your mouth~!</string>
 </resources>

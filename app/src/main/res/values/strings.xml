@@ -79,7 +79,7 @@
     <string name="menu_name3">콜드 브루와 소금우유생크림 와플</string>
     <string name="menu_desc3">단짠의 맛이 어우러지는 소금우유생크림 와플에, 살짝 존재하는 느끼함을 잡아주는 콜드브루의 조화.</string>
     <string name="menu_components3_name1">콜드 브루</string>
-    <string name="menu_components3_desc1">일반적인 커피와는 달리 차가운 물에 오랜시간 우려내서 쓴맛이 덜 하고 부드럽게 마실 수 있는 커피이다.</string>
+    <string name="menu_components3_desc1">일반적인 커피와는 달리 차가운 물에 오랜 시간 우려내서 쓴맛이 덜 하고 부드럽게 마실 수 있는 커피이다.</string>
     <string name="menu_components3_name2">소금우유생크림 와플</string>
     <string name="menu_components3_desc2">우유생크림에 소금을 약간 추가하여 단짠의 조화를 이루고 느끼함을 덜하게 해준 디저트이다.</string>
 
@@ -90,12 +90,12 @@
     <string name="menu_components4_name2">아이스크림 크로플</string>
     <string name="menu_components4_desc2">메뉴 설명을 입력해주세요.</string>
 
-    <string name="menu_name5">초코 라떼와 황치즈 쿠키</string>
-    <string name="menu_desc5">다크 초콜릿으로 만든 초코 라떼와 황치즈가 듬뿍 들어간 쿠키</string>
-    <string name="menu_components5_name1">초코 라떼</string>
-    <string name="menu_components5_desc1">벨기에산 다크 초콜릿과 국산 A++ 우유의 만남! 더욱 깊고 진한 풍미를 느껴보세요.</string>
-    <string name="menu_components5_name2">황치즈 쿠키</string>
-    <string name="menu_components5_desc2">꼬숩 짭쪼름 달달한 황치즈 쿠키! 한 번 맛 보면 헤어나오지 못한대요~</string>
+    <string name="menu_name5">웨딩 티칵테일과 바스크 치즈 케이크</string>
+    <string name="menu_desc5">웨딩 임페리얼 티로 만든 칵테일과 부드러운 바스크 치즈 케이크! 조화로운가? 부드러움이 2배인 조합!</string>
+    <string name="menu_components5_name1">웨딩 티 칵테일</string>
+    <string name="menu_components5_desc1">프랑스의 최고급 홍차 웨딩 임페리얼로 블렌딩한 티 칵테일! 향긋한 카라멜과 부드러운 목넘김이 일품.</string>
+    <string name="menu_components5_name2">바스크 치즈 케이크</string>
+    <string name="menu_components5_desc2">스모키한 향이 입혀져 훨씬 더 고급스러운 풍미를 느낄 수 있는 바스크 치즈 케이크는 입에 넣자마자 녹아 없어질 거예요~!</string>
 
     <!--사이트-->
     <string name="menu_site1" translatable="false">https://map.naver.com/p/entry/place/1113831375?c=15.00,0,0,0,dh</string>
