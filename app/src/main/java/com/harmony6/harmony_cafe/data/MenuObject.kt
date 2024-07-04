@@ -59,14 +59,14 @@ object MenuObject {
             getString(R.string.menu_site5)
         )
         val menuImageList = listOf(
-            R.drawable.img_bread_pudding,
+            R.drawable.img_menu_bread_pudding,
             R.drawable.img_menu_taeyoung,
             R.drawable.img_menu_yooho,
             R.drawable.img_menu_imgaram,
-            R.drawable.img_component_ice_cream_crople,
+            R.drawable.img_menu_cheesecake,
         )
         val menuComponentImageList = listOf(
-            listOf(R.drawable.img_bread_pudding, R.drawable.home_feed_image1),
+            listOf(R.drawable.img_component_oolong_tea, R.drawable.img_component_bread_pudding),
             listOf(
                 R.drawable.img_component_ice_americano,
                 R.drawable.img_component_strawberry_tiramisu
@@ -76,7 +76,7 @@ object MenuObject {
                 R.drawable.img_component_grapefruit_ade,
                 R.drawable.img_component_ice_cream_crople
             ),
-            listOf(R.drawable.home_feed_profile1, R.drawable.home_feed_profile1)
+            listOf(R.drawable.img_component_tea_cocktail, R.drawable.img_component_cheesecake)
         )
 
         for (i in menuNameList.indices) {
