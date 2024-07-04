@@ -25,16 +25,17 @@ class HomeActivity : AppCompatActivity() {
         }
         initMenu()      // 메뉴 초기화
 
+
+        val menuList = MenuObject.menuList
+        val numList = (0..4).toList()
+        val randomNum = numList.shuffled()
+
         // Horizontal ScrollView 메뉴
         val detailImage1 = findViewById<ImageView>(R.id.home_imageView1)
         val detailImage2 = findViewById<ImageView>(R.id.home_imageView2)
         val detailImage3 = findViewById<ImageView>(R.id.home_imageView3)
         val detailImage4 = findViewById<ImageView>(R.id.home_imageView4)
         val detailImage5 = findViewById<ImageView>(R.id.home_imageView5)
-
-        val menuList = MenuObject.menuList
-        val numList = (0..4).toList()
-        val randomNum = numList.shuffled()
         detailImage1.setImageResource(menuList[randomNum[0]].img)
         detailImage2.setImageResource(menuList[randomNum[1]].img)
         detailImage3.setImageResource(menuList[randomNum[2]].img)
