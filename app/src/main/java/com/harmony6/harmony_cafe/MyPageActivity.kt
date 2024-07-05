@@ -59,9 +59,10 @@ class MyPageActivity : AppCompatActivity() {
         val menuName2 = findViewById<TextView>(R.id.my_page_text_menu_name2)
         val menuName3 = findViewById<TextView>(R.id.my_page_text_menu_name3)
 
-        menuName1.text = menuList[randomMenu[0]].name
-        menuName2.text = menuList[randomMenu[1]].name
-        menuName3.text = menuList[randomMenu[2]].name
+        val menuNameArr = resources.getStringArray(R.array.menu_title_list)
+        menuName1.text = menuNameArr[randomMenu[0]]
+        menuName2.text = menuNameArr[randomMenu[1]]
+        menuName3.text = menuNameArr[randomMenu[2]]
 
         val menuImage1 = findViewById<ImageView>(R.id.my_page_image_menu1)
         val menuImage2 = findViewById<ImageView>(R.id.my_page_image_menu2)
@@ -75,8 +76,9 @@ class MyPageActivity : AppCompatActivity() {
         val menuDescription2 = findViewById<TextView>(R.id.my_page_text_menu_description2)
         val menuDescription3 = findViewById<TextView>(R.id.my_page_text_menu_description3)
 
-        menuDescription1.text = menuList[randomMenu[0]].desc
-        menuDescription2.text = menuList[randomMenu[1]].desc
-        menuDescription3.text = menuList[randomMenu[2]].desc
+        val menuDescArray = resources.getStringArray(R.array.menu_desc_list)
+        menuDescription1.text = menuDescArray[randomMenu[0]]
+        menuDescription2.text = menuDescArray[randomMenu[1]]
+        menuDescription3.text = menuDescArray[randomMenu[2]]
     }
 }
