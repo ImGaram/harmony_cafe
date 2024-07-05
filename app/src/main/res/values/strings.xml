@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">harmony</string>
     <string name="more">더보기</string>
-
+    <string name="fold">접기</string>
 
     <!--로그인-->
     <string name="login_title">harmony</string>
@@ -61,6 +61,21 @@
     <string name="my_page_user_menu1">%s의 메뉴 1</string>
     <string name="my_page_user_menu2">%s의 메뉴 2</string>
     <string name="my_page_user_menu3">%s의 메뉴 3</string>
+    <string-array name="menu_title_list">
+        <item>우롱티와 얼그레이 브레드 푸딩</item>
+        <item>아이스 아메리카노와 딸기 티라미수</item>
+        <item>콜드 브루와 소금우유생크림 와플</item>
+        <item>자몽 에이드와 아이스크림 크로플</item>
+        <item>웨딩 티칵테일과 바스크 치즈 케이크</item>
+    </string-array>
+
+    <string-array name="menu_desc_list">
+        <item>깔끔한 우롱티와 달달 쌉싸름한 얼그레이 브레드 푸딩의 조화로운 harmony~</item>
+        <item>쓰고 깊은 맛과 달콤하고 상큼한 맛이 어우러지니, 마치 더운 여름 날에 서늘한 그늘 아래 앉아 봄날의 향기를 만끽하는 것 같구나. 이 얼마나 조화로운가?</item>
+        <item>단짠의 맛이 어우러지는 소금우유생크림 와플에, 살짝 존재하는 느끼함을 잡아주는 콜드브루의 조화.</item>
+        <item>새콤달콤한 자몽 에이드와 달콤 바삭한 아이스크림 크로플의 세트. 크로플의 달콤함을 자몽 에이드로 잡아줘서 맛있습니다.</item>
+        <item>웨딩 임페리얼 티로 만든 칵테일과 부드러운 바스크 치즈 케이크! 조화로운가? 부드러움이 2배인 조합!</item>
+    </string-array>
 
     <!-- 메뉴 -->
     <string name="menu_name1">우롱티와 얼그레이 브레드 푸딩</string>

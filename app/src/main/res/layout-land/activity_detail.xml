@@ -24,10 +24,22 @@
             android:textStyle="bold" />
     </androidx.appcompat.widget.Toolbar>
 
+    <ImageView
+        android:id="@+id/detail_menu_img"
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/detail_img_desc"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/detail_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
     <ScrollView
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@id/detail_toolbar"
+        app:layout_constraintStart_toEndOf="@id/detail_menu_img"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,67 +47,51 @@
             android:layout_height="wrap_content"
             android:paddingBottom="16dp">
 
-            <ImageView
-                android:id="@+id/detail_menu_img"
-                android:layout_width="match_parent"
-                android:layout_height="343dp"
-                android:contentDescription="@string/detail_img_desc"
-                android:scaleType="centerCrop"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                tools:text="메뉴명"
-                android:id="@+id/detail_menu_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:maxLines="1"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/highlight"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginTop="16dp"
-                android:gravity="start"
-                app:layout_constrainedWidth="true"
-                app:layout_constraintHorizontal_chainStyle="packed"
-                app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintEnd_toStartOf="@id/detail_user_info"
-                app:layout_constraintTop_toBottomOf="@id/detail_menu_img"
-                app:layout_constraintStart_toStartOf="@id/detail_menu_img" />
-
             <LinearLayout
-                android:id="@+id/detail_user_info"
+                android:id="@+id/detail_menu"
                 android:orientation="horizontal"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                app:layout_constraintStart_toEndOf="@id/detail_menu_name"
-                app:layout_constraintTop_toTopOf="@id/detail_menu_name"
-                app:layout_constraintBottom_toBottomOf="@id/detail_menu_name"
-                app:layout_constraintEnd_toEndOf="parent">
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:gravity="center_vertical"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
-                    tools:text="사용자 이름"
-                    android:id="@+id/detail_user_name"
+                    android:id="@+id/detail_menu_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="4dp"
-                    android:textSize="12sp"
-                    android:textColor="@color/gray_shade"
+                    android:ellipsize="end"
                     android:maxLines="1"
-                    app:drawableEndCompat="@drawable/ic_circle" />
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/highlight" />
 
-                <TextView
-                    tools:text="2024-01-01"
-                    android:id="@+id/detail_menu_created"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="10dp"
-                    android:textSize="12sp"
-                    android:textColor="@color/gray_shade"
-                    android:maxLines="1"
-                    android:layout_marginStart="4dp" />
+                    android:layout_marginStart="8dp">
+
+                    <TextView
+                        android:id="@+id/detail_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/gray_shade"
+                        app:drawableEndCompat="@drawable/ic_circle" />
+
+                    <TextView
+                        android:id="@+id/detail_menu_created"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/gray_shade"
+                        android:layout_marginStart="4dp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -109,8 +105,8 @@
                 android:textColor="#575757"
                 android:layout_marginTop="8dp"
                 android:layout_marginHorizontal="16dp"
-                app:layout_constraintStart_toStartOf="@id/detail_menu_name"
-                app:layout_constraintTop_toBottomOf="@id/detail_user_info" />
+                app:layout_constraintStart_toStartOf="@id/detail_menu"
+                app:layout_constraintTop_toBottomOf="@id/detail_menu" />
 
             <TextView
                 android:id="@+id/detail_desc_more"
@@ -169,13 +165,12 @@
                     android:layout_marginStart="16dp">
 
                     <TextView
-                        tools:text="메뉴 구성 1"
                         android:id="@+id/detail_components1_name"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:textStyle="bold"
                         android:textSize="16sp"
                         android:textColor="@color/black_shade"
-                        android:textStyle="bold"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintBottom_toTopOf="@+id/detail_components1_desc"
@@ -183,7 +178,6 @@
                         app:layout_constraintVertical_chainStyle="spread" />
 
                     <TextView
-                        tools:text="메뉴 구성 1의 설명"
                         android:id="@+id/detail_components1_desc"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -238,13 +232,12 @@
                     android:layout_marginStart="16dp">
 
                     <TextView
-                        tools:text="메뉴 구성 2"
                         android:id="@+id/detail_components2_name"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:textStyle="bold"
                         android:textSize="16sp"
                         android:textColor="@color/black_shade"
-                        android:textStyle="bold"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintBottom_toTopOf="@+id/detail_components2_desc"
@@ -252,7 +245,6 @@
                         app:layout_constraintVertical_chainStyle="spread" />
 
                     <TextView
-                        tools:text="메뉴 구성 2의 설명"
                         android:id="@+id/detail_components2_desc"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"

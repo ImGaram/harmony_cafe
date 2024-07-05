@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">harmony</string>
     <string name="more">more</string>
+    <string name="fold">fold</string>
 
     <!--로그인-->
     <string name="login_id">Please enter your ID.</string>
@@ -38,7 +39,6 @@
     <string name="detail_img_desc">Menu image</string>
     <string name="detail_sub_title">Menu composition</string>
 
-
     <!--회원가입-->
     <string name="signup_title">Sign Up</string>
     <string name="signup_name">Please enter your name.</string>
@@ -60,6 +60,21 @@
     <string name="my_page_user_menu1">%s\'s menu 1</string>
     <string name="my_page_user_menu2">%s\'s menu 2</string>
     <string name="my_page_user_menu3">%s\'s menu 3</string>
+    <string-array name="menu_title_list">
+        <item>Oolong tea &amp; Earl Grey Bread Pudding</item>
+        <item>Ice Americano &amp; Strawberry Tiramisu</item>
+        <item>Cold Brew Coffee &amp; Salty Milk Cream Waffle</item>
+        <item>Grapefruit Ade &amp; Ice Cream Croffle</item>
+        <item>Wedding tea cocktail &amp; Basque cheesecake</item>
+    </string-array>
+
+    <string-array name="menu_desc_list">
+        <item>If you enjoy oolong tea and earl grey bread pudding together, you\'ll feel twice full</item>
+        <item>It\'s a combination of bitter and deep and sweet and refreshing, as if you\'re sitting under a cool shade on a hot summer day and enjoying the scent of a spring day. How harmonious is this?</item>
+        <item>A combination of salted milk whipped cream waffles with a sweet and salty taste, and cold brew to balance out the slightly greasy taste.</item>
+        <item>A set of sweet and sour grapefruit ade and sweet and crunchy ice cream croffle. It\'s delicious because the sweetness of the croffle is balanced by grapefruit ade.</item>
+        <item>Wedding imperial cocktail and soft basque cheesecake! Harmonious? A combination of twice the softness!</item>
+    </string-array>
 
     <!-- 메뉴 -->
     <string name="menu_name1">Oolong tea &amp; Earl Grey Bread Pudding</string>
@@ -84,11 +99,11 @@
     <string name="menu_components3_desc2">This dessert is made by adding a little salt to fresh milk cream to create a sweet-salty balance and reduce the greasiness.</string>
 
     <string name="menu_name4">Grapefruit Ade &amp; Ice Cream Croffle</string>
-    <string name="menu_desc4">Please enter the menu description.</string>
+    <string name="menu_desc4">A set of sweet and sour grapefruit ade and sweet and crunchy ice cream croffle. It\'s delicious because the sweetness of the croffle is balanced by grapefruit ade.</string>
     <string name="menu_components4_name1">Grapefruit Ade</string>
-    <string name="menu_components4_desc1">Please enter the menu description.</string>
+    <string name="menu_components4_desc1">A combination of sweet and sour grapefruit and tangy carbonated water.</string>
     <string name="menu_components4_name2">Ice Cream Croffle</string>
-    <string name="menu_components4_desc2">Please enter the menu description.</string>
+    <string name="menu_components4_desc2">I enjoyed the sweet and crunchy taste with sweet vanilla ice cream and croffle.</string>
 
     <string name="menu_name5">Wedding tea cocktail &amp; Basque cheesecake</string>
     <string name="menu_desc5">Wedding imperial cocktail and soft basque cheesecake! Harmonious? A combination of twice the softness!</string>
