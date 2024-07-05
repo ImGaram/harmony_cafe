@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@string/signup_title"
             android:layout_gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/black_shade"
             android:textSize="16sp"
             android:textStyle="bold"/>
     </androidx.appcompat.widget.Toolbar>
