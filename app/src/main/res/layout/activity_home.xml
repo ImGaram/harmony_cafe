@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogInActivity">
+    tools:context=".LogInActivity"
+    android:background="@color/login_background">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottie"
@@ -161,6 +162,7 @@
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
 
     <ScrollView
+        android:id="@+id/feed_scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/home_divider"
