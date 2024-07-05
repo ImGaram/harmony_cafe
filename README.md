@@ -123,7 +123,7 @@
 * 원형 ImageView 처리
   - 폴더에 background를 생성하여 처리
 * 더보기 활성화
-  - TextViw가 긴 경우 elipse 처리 후 더보기 버튼을 눌러 전문 공개
+  - TextViw가 긴 경우 ellipsize 처리 후 더보기 버튼을 눌러 전문 공개
 * UserData 관리
   - 로그인할 때 받아온 UserData를 사용하고 이를 다시 마이페이지로 전달
 
