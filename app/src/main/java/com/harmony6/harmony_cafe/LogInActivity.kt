@@ -2,8 +2,10 @@ package com.harmony6.harmony_cafe
 
 import android.app.Activity
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -73,6 +75,11 @@ class LogInActivity : AppCompatActivity() {
             launcher.launch(intent)
         }
 
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("체크","1")
     }
 
 }
