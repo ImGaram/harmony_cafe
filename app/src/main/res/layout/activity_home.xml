@@ -454,7 +454,7 @@
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
                         android:background="@drawable/bg_circle"
-                        android:src="@drawable/home_feed_title_profile4"
+                        android:src="@drawable/home_feed_profile4"
                         android:clipToOutline="true"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
