@@ -5,7 +5,7 @@
     <color name="teritary">#FFA79C8A</color>
     <color name="highlight">#FFE8DFCF</color>
     <color name="black_shade">#FFD8D8D8</color>
-
+    <color name="gray_shade">#FFD8D8D8</color>
     <color name="gray">#FFD8D8D8</color>
     <color name="transparent">#00000000</color>
     <color name="login_background">#FF3C3C3C</color>

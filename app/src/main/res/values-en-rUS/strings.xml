@@ -20,7 +20,7 @@
     <string name="home_feed_time1">30.06.24</string>
     <string name="home_feed_content1">White milk with 3 scoops of chocolate ice cream and chocolate drizzle will fill up sugar!</string>
 
-    <string name="home_feed_name2">Taeyoung2da</string>
+    <string name="home_feed_name2">Taeyound2da</string>
     <string name="home_feed_time2">05.04.22</string>
     <string name="home_feed_content2">Handmade cheesecake with domestic rice castella, organic chestnuts, mascarpone and Kiri cheese. Make sure you eat it!!!! Garosu-gil Dangok!!! @@@@@@@@@@@@@@@@@@@@@@@@@@</string>
 
@@ -60,6 +60,16 @@
     <string name="my_page_user_menu1">%s\'s menu 1</string>
     <string name="my_page_user_menu2">%s\'s menu 2</string>
     <string name="my_page_user_menu3">%s\'s menu 3</string>
+
+    <!-- 메뉴 -->
+    <string-array name="menu_user_list">
+        <item>BoraDori</item>
+        <item>Taeyound2da</item>
+        <item>Yooho Song</item>
+        <item>Garam Im</item>
+        <item>BoraDori</item>
+    </string-array>
+
     <string-array name="menu_title_list">
         <item>Oolong tea &amp; Earl Grey Bread Pudding</item>
         <item>Ice Americano &amp; Strawberry Tiramisu</item>
@@ -76,7 +86,38 @@
         <item>Wedding imperial cocktail and soft basque cheesecake! Harmonious? A combination of twice the softness!</item>
     </string-array>
 
-    <!-- 메뉴 -->
+    <string-array name="menu_components1_title_list">
+        <item>Oolong tea &amp; Earl Grey Bread Pudding</item>
+        <item>Ice Americano &amp; Strawberry Tiramisu</item>
+        <item>Cold Brew Coffee &amp; Salty Milk Cream Waffle</item>
+        <item>Grapefruit Ade &amp; Ice Cream Croffle</item>
+        <item>Wedding tea cocktail &amp; Basque cheesecake</item>
+    </string-array>
+
+    <string-array name="menu_components1_desc_list">
+        <item>Premium Oolong tea grown one by one from selected Da Won! It\'s really delicious.</item>
+        <item>It\'s a black water that\'s lightly burnt in cold water, giving you a cool feeling like ice on a dark green summer day. The taste is bitter and deep, and it cools you down, so it\'s great to fight off the heat.</item>
+        <item>Unlike regular coffee, this coffee is steeped in cold water for a long time, making it less bitter and smoother to drink.</item>
+        <item>A combination of sweet and sour grapefruit and tangy carbonated water.</item>
+        <item>A tea cocktail blended with France\'s finest black tea wedding Imperial! The fragrant caramel and soft throat are excellent.</item>
+    </string-array>
+
+    <string-array name="menu_components2_title_list">
+        <item>Earl Grey Bread Pudding</item>
+        <item>Strawberry Tiramisu</item>
+        <item>Salty Milk Cream Waffle</item>
+        <item>Ice Cream Croffle</item>
+        <item>Basque cheesecake</item>
+    </string-array>
+
+    <string-array name="menu_components2_desc_list">
+        <item>From fragrant earl grey, bitter cacao nibs, and crunchy walnuts. Try some delicious bread pudding that\'s not too sweet or bitter.</item>
+        <item>It\'s a delicacy made of red strawberries and sweet cream in layers between soft white bread. The taste is both sweet and refreshing, so when you take a bite, you feel like you\'re in a bright flower field on a spring day.</item>
+        <item>This dessert is made by adding a little salt to fresh milk cream to create a sweet-salty balance and reduce the greasiness.</item>
+        <item>I enjoyed the sweet and crunchy taste with sweet vanilla ice cream and croffle.</item>
+        <item>The Basque Cheesecake, which has a smoky scent to give you a much more luxurious flavor, will melt away as soon as you put it in your mouth~!</item>
+    </string-array>
+
     <string name="menu_name1">Oolong tea &amp; Earl Grey Bread Pudding</string>
     <string name="menu_desc1">If you enjoy oolong tea and earl grey bread pudding together, you\'ll feel twice full</string>
     <string name="menu_components1_name1">Oolong tea</string>
