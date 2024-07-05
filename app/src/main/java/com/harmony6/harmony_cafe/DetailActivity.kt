@@ -79,8 +79,6 @@ class DetailActivity : AppCompatActivity() {
 
     // 메뉴 정보 표시
     private fun setMenu(menu: Menu?) {
-        val container = findViewById<LinearLayout>(R.id.detail_menu)
-
         menu?.let {
             findViewById<ImageView>(R.id.detail_menu_img).apply { setImageResource(menu.img) }
             findViewById<TextView>(R.id.detail_menu_name).apply {
