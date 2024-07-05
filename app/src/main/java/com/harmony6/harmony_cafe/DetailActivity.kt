@@ -19,7 +19,7 @@ import com.harmony6.harmony_cafe.data.Menu
 import com.harmony6.harmony_cafe.data.MenuObject
 
 class DetailActivity : AppCompatActivity() {
-    private lateinit var components: List<Triple<ImageView, TextView, TextView>>
+    private lateinit var components: List<List<View>>
     private var delay = 0L
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,7 +39,7 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back)
 
         val menuName = intent.getStringExtra("menuKey") ?: ""
-        val menu = getMenuByMenuName(menuName)
+        val menu = MenuObject.findMenuByName(menuName)
 
         setComponents()
         setMenu(menu)
@@ -64,15 +64,17 @@ class DetailActivity : AppCompatActivity() {
     // 메뉴 구성 요소 위젯 초기화
     private fun setComponents() {
         components = arrayListOf(
-            Triple(
+            listOf(
                 findViewById(R.id.detail_components1_img),
                 findViewById(R.id.detail_components1_name),
-                findViewById(R.id.detail_components1_desc)
+                findViewById(R.id.detail_components1_desc),
+                findViewById(R.id.detail_components1_desc_more)
             ),
-            Triple(
+            listOf(
                 findViewById(R.id.detail_components2_img),
                 findViewById(R.id.detail_components2_name),
-                findViewById(R.id.detail_components2_desc)
+                findViewById(R.id.detail_components2_desc),
+                findViewById(R.id.detail_components2_desc_more)
             )
         )
     }
@@ -90,23 +92,17 @@ class DetailActivity : AppCompatActivity() {
                     }
                 }
             }
-            findViewById<TextView>(R.id.detail_user_name).apply { text = menu.username }
-            findViewById<TextView>(R.id.detail_menu_created).apply {
-                text = menu.createdDate.toString()
-            }
-            setMoreBtn(
-                findViewById(R.id.detail_menu_desc),
+            findViewById<TextView>(R.id.detail_user_name).text.apply { menu.username }
+            findViewById<TextView>(R.id.detail_menu_created).text.apply { menu.createdDate.toString() }
+            findViewById<TextView>(R.id.detail_menu_desc).setMoreBtn(
                 findViewById(R.id.detail_desc_more),
                 menu.desc
             )
             components.mapIndexed { idx, item ->
-                item.first.setImageResource(menu.components[idx].img)
-                item.first.clipToOutline = true
-                item.second.text = menu.components[idx].name
-
-                val btnMore =
-                    findViewById<TextView>(if (idx == 0) R.id.detail_components1_desc_more else R.id.detail_components2_desc_more)
-                setMoreBtn(item.third, btnMore, menu.components[idx].desc, 2)
+                (item[0] as ImageView).setImageResource(menu.components[idx].img)
+                item[0].clipToOutline = true
+                (item[1] as TextView).text = menu.components[idx].name
+                (item[2] as TextView).setMoreBtn(item[3] as TextView, menu.components[idx].desc, 2)
             }
         }
     }
@@ -135,26 +131,21 @@ class DetailActivity : AppCompatActivity() {
     }
 
     // 더보기/접기 버튼 설정
-    private fun setMoreBtn(view: TextView, btn: TextView, desc: String, maxLine: Int = 3) {
-        view.apply {
-            text = desc
-            post {
-                if (layout.lineCount > maxLine - 1 && layout.getEllipsisCount(lineCount - 1) > 0) {
-                    btn.visibility = View.VISIBLE
-                    btn.setOnClickListener {
-                        btn.text =
-                            if (maxLines == maxLine) getString(R.string.fold) else getString(
-                                R.string.more
-                            )
-                        maxLines = if (maxLines == maxLine) Int.MAX_VALUE else maxLine
-                    }
-                } else btn.visibility = View.GONE
-            }
+    private fun TextView.setMoreBtn(btn: TextView, desc: String, maxLine: Int = 3) {
+        text = desc
+        post {
+            if (layout.lineCount > maxLine - 1 && layout.getEllipsisCount(lineCount - 1) > 0) {
+                btn.visibility = View.VISIBLE
+                btn.setOnClickListener {
+                    btn.text =
+                        if (maxLines == maxLine) getString(R.string.fold) else getString(
+                            R.string.more
+                        )
+                    maxLines = if (maxLines == maxLine) Int.MAX_VALUE else maxLine
+                }
+            } else btn.visibility = View.GONE
         }
     }
-
-    // 메뉴 이름으로 메뉴 찾기
-    private fun getMenuByMenuName(name: String) = MenuObject.menuList.find { it.name == name }
 
     // dp to px
     private fun dpToPx(dp: Float) =
