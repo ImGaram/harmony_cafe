@@ -111,5 +111,6 @@ object MenuObject {
         }
     }
 
-    fun findMenuByName(name: String) = menuList.find { it.name == name }
+    fun findIdByName(name: String): Int =
+        menuList.indices.find { menuList[it].name == name } ?: -1
 }

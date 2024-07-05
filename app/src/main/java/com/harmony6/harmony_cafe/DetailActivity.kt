@@ -15,7 +15,6 @@ import androidx.appcompat.widget.Toolbar
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.harmony6.harmony_cafe.data.Menu
 import com.harmony6.harmony_cafe.data.MenuObject
 
 class DetailActivity : AppCompatActivity() {
@@ -39,17 +38,17 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back)
 
         val menuName = intent.getStringExtra("menuKey") ?: ""
-        val menu = MenuObject.findMenuByName(menuName)
+        val id = MenuObject.findIdByName(menuName)
 
         setComponents()
-        setMenu(menu)
+        setMenu(id)
 
         findViewById<ImageView>(R.id.detail_menu_img).setOnClickListener {
             if (System.currentTimeMillis() > delay) {
                 delay = System.currentTimeMillis() + 200
                 return@setOnClickListener
             } else {
-                menu?.let { startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(it.site))) }
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(MenuObject.menuList[id].site)))
             }
         }
     }
@@ -80,30 +79,48 @@ class DetailActivity : AppCompatActivity() {
     }
 
     // 메뉴 정보 표시
-    private fun setMenu(menu: Menu?) {
-        menu?.let {
-            findViewById<ImageView>(R.id.detail_menu_img).apply { setImageResource(menu.img) }
-            findViewById<TextView>(R.id.detail_menu_name).apply {
-                text = menu.name
-                post {
-                    if (layout.getEllipsisCount(lineCount - 1) > 0) {
-                        maxLines = Int.MAX_VALUE
-                        handleLayout()
-                    }
+    private fun setMenu(id: Int) {
+        val menu = mapOf(
+            "img" to MenuObject.menuList[id].img,
+            "name" to resources.getStringArray(R.array.menu_title_list)[id],
+            "username" to resources.getStringArray(R.array.menu_user_list)[id],
+            "createdDate" to MenuObject.menuList[id].createdDate,
+            "desc" to resources.getStringArray(R.array.menu_desc_list)[id],
+        )
+        val component = listOf<Triple<Int, String, String>>(
+            Triple(
+                MenuObject.menuList[id].components[0].img,
+                resources.getStringArray(R.array.menu_components1_title_list)[id],
+                resources.getStringArray(R.array.menu_components1_desc_list)[id],
+            ),
+            Triple(
+                MenuObject.menuList[id].components[1].img,
+                resources.getStringArray(R.array.menu_components2_title_list)[id],
+                resources.getStringArray(R.array.menu_components2_desc_list)[id],
+            ),
+        )
+
+        findViewById<ImageView>(R.id.detail_menu_img).apply { setImageResource(menu["img"] as Int) }
+        findViewById<TextView>(R.id.detail_menu_name).apply {
+            text = menu["name"] as String
+            post {
+                if (layout.getEllipsisCount(lineCount - 1) > 0) {
+                    maxLines = Int.MAX_VALUE
+                    handleLayout()
                 }
             }
-            findViewById<TextView>(R.id.detail_user_name).text.apply { menu.username }
-            findViewById<TextView>(R.id.detail_menu_created).text.apply { menu.createdDate.toString() }
-            findViewById<TextView>(R.id.detail_menu_desc).setMoreBtn(
-                findViewById(R.id.detail_desc_more),
-                menu.desc
-            )
-            components.mapIndexed { idx, item ->
-                (item[0] as ImageView).setImageResource(menu.components[idx].img)
-                item[0].clipToOutline = true
-                (item[1] as TextView).text = menu.components[idx].name
-                (item[2] as TextView).setMoreBtn(item[3] as TextView, menu.components[idx].desc, 2)
-            }
+        }
+        findViewById<TextView>(R.id.detail_user_name).text.apply { menu["username"] }
+        findViewById<TextView>(R.id.detail_menu_created).text.apply { menu["createdDate"].toString() }
+        findViewById<TextView>(R.id.detail_menu_desc).setMoreBtn(
+            findViewById(R.id.detail_desc_more),
+            menu["desc"] as String
+        )
+        components.mapIndexed { idx, item ->
+            (item[0] as ImageView).setImageResource(component[idx].first)
+            item[0].clipToOutline = true
+            (item[1] as TextView).text = component[idx].second
+            (item[2] as TextView).setMoreBtn(item[3] as TextView, component[idx].third, 2)
         }
     }
 

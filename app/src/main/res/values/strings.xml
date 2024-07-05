@@ -61,6 +61,17 @@
     <string name="my_page_user_menu1">%s의 메뉴 1</string>
     <string name="my_page_user_menu2">%s의 메뉴 2</string>
     <string name="my_page_user_menu3">%s의 메뉴 3</string>
+
+
+    <!-- 메뉴 -->
+    <string-array name="menu_user_list">
+        <item>김보라</item>
+        <item>김태영</item>
+        <item>송유호</item>
+        <item>임가람</item>
+        <item>김보라</item>
+    </string-array>
+
     <string-array name="menu_title_list">
         <item>우롱티와 얼그레이 브레드 푸딩</item>
         <item>아이스 아메리카노와 딸기 티라미수</item>
@@ -77,7 +88,38 @@
         <item>웨딩 임페리얼 티로 만든 칵테일과 부드러운 바스크 치즈 케이크! 조화로운가? 부드러움이 2배인 조합!</item>
     </string-array>
 
-    <!-- 메뉴 -->
+    <string-array name="menu_components1_title_list">
+        <item>우롱티</item>
+        <item>아이스 아메리카노</item>
+        <item>콜드 브루</item>
+        <item>자몽 에이드</item>
+        <item>웨딩 티칵테일</item>
+    </string-array>
+
+    <string-array name="menu_components1_desc_list">
+        <item>엄선된 다원에서 하나하나 직접 재배한 프리미엄 우롱티! 정말 맛있어요.</item>
+        <item>차가운 물에 연하게 탄 검은 물이랴, 마치 녹음 짙은 여름날 얼음처럼 서늘한 느낌을 준다네. 그 맛은 쓰고 깊으며 몸을 시원하게 해 주니, 더위를 물리치기에 더 없이 좋구나.</item>
+        <item>일반적인 커피와는 달리 차가운 물에 오랜 시간 우려내서 쓴맛이 덜 하고 부드럽게 마실 수 있는 커피이다.</item>
+        <item>새콤달콤한 자몽과 톡 쏘는 탄산수와의 조화.</item>
+        <item>프랑스의 최고급 홍차 웨딩 임페리얼로 블렌딩한 티 칵테일! 향긋한 카라멜과 부드러운 목넘김이 일품.</item>
+    </string-array>
+
+    <string-array name="menu_components2_title_list">
+        <item>얼그레이 브레드 푸딩</item>
+        <item>딸기 티라미수</item>
+        <item>소금우유생크림 와플</item>
+        <item>아이스크림 크로플</item>
+        <item>바스크 치즈 케이크</item>
+    </string-array>
+
+    <string-array name="menu_components2_desc_list">
+        <item>향긋한 얼그레이와 쌉싸름한 카카오닙스, 그리고 오독오독 호두까지. 너무 달지도, 쓰지도 않고 조화롭게 맛있는 브레드 푸딩도 드셔보세요.</item>
+        <item>부드러운 하얀 빵 사이에 붉은 딸기와 달콤한 크림을 겹겹이 쌓아 만든 진미라네. 그 맛은 달콤하기도 상큼하기도 하여 한 입 머금으면 마치 봄날의 화사한 꽃밭에 있는 듯한 기분을 느끼게 한다네.</item>
+        <item>우유생크림에 소금을 약간 추가하여 단짠의 조화를 이루고 느끼함을 덜하게 해준 디저트이다.</item>
+        <item>달콤한 바닐라 아이스크림과 크로플과 함께 달콤 바삭한 맛을 즐겼습니다.</item>
+        <item>스모키한 향이 입혀져 훨씬 더 고급스러운 풍미를 느낄 수 있는 바스크 치즈 케이크는 입에 넣자마자 녹아 없어질 거예요~!</item>
+    </string-array>
+
     <string name="menu_name1">우롱티와 얼그레이 브레드 푸딩</string>
     <string name="menu_desc1">깔끔한 우롱티와 달달 쌉싸름한 얼그레이 브레드 푸딩의 조화로운 harmony~</string>
     <string name="menu_components1_name1">우롱티</string>
