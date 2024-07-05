@@ -40,6 +40,22 @@ class MyPageActivity : AppCompatActivity() {
             }
         }
 
+        val imgList = listOf(
+            R.drawable.home_feed_profile1,
+            R.drawable.home_feed_profile2,
+            R.drawable.home_feed_profile3,
+            R.drawable.home_feed_profile4,
+        ).shuffled()
+        val userImage = findViewById<ImageView>(R.id.my_page_image_user)
+        val menu1UserImage = findViewById<ImageView>(R.id.my_page_image_user_menu1)
+        val menu2UserImage = findViewById<ImageView>(R.id.my_page_image_user_menu2)
+        val menu3UserImage = findViewById<ImageView>(R.id.my_page_image_user_menu3)
+
+        userImage.setImageResource(imgList.first())
+        menu1UserImage.setImageResource(imgList.first())
+        menu2UserImage.setImageResource(imgList.first())
+        menu3UserImage.setImageResource(imgList.first())
+
         val userMenu1 = findViewById<TextView>(R.id.my_page_text_user_menu1)
         val userMenu2 = findViewById<TextView>(R.id.my_page_text_user_menu2)
         val userMenu3 = findViewById<TextView>(R.id.my_page_text_user_menu3)
