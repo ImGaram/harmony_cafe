@@ -10,7 +10,7 @@
 * 다국어 지원
 * Light / Dark Theme 지원
 * Portrait / LandScape 화면 모드 지원
-* Toolebar를 이용해 화면 타이틀 표시 및 뒤로가기 구현
+* Toolbar를 이용해 화면 타이틀 표시 및 뒤로가기 구현
 * 직접 제작한 Lottie Animaton
  
 
@@ -121,7 +121,7 @@
 * 카페 메뉴 순서 랜덤 노출
   - 여러 메뉴들을 랜덤으로 노출하고 랜덤 값에 따른 상세 페이지로 연결될 수 있도록 처리
 * 원형 ImageView 처리
-  - 폴더에 background를 생성하여 처리
+  - drawble 폴더에 background 생성 후 처리
 * 더보기 활성화
   - TextViw가 긴 경우 ellipsize 처리 후 더보기 버튼을 눌러 전문 공개
 * UserData 관리
@@ -138,7 +138,7 @@
 </p>
 
 * 원형 ImageView 처리
-  - 폴더에 background를 생성하여 처리
+  - drawble 폴더에 background 생성 후 처리
 * 반응형 디자인 적용
   - 메뉴 이름이 길어질 경우 사용자 이름과 작성 날짜가 메뉴 아래에 오도록 구현
 * 더보기 활성화
@@ -157,7 +157,7 @@
 </p>
 
 * 원형 ImageView 처리
-  - 폴더에 background를 생성하여 처리
+  - drawble 폴더에 background 생성 후 처리
 * UserData 관리
   - Intent를 통해 홈 화면에서 UserData를 받아와 사용자 정보를 노출
 * 사용자 프로필 랜덤 노출
