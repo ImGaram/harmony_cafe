@@ -110,4 +110,6 @@ object MenuObject {
             menuList.add(menu)
         }
     }
+
+    fun findMenuByName(name: String) = menuList.find { it.name == name }
 }
