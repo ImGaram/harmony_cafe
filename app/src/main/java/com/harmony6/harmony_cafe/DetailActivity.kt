@@ -145,8 +145,8 @@ class DetailActivity : AppCompatActivity() {
                     btn.visibility = View.VISIBLE
                     btn.setOnClickListener {
                         btn.text =
-                            if (maxLines == maxLine) getString(R.string.detail_fold) else getString(
-                                R.string.detail_more
+                            if (maxLines == maxLine) getString(R.string.fold) else getString(
+                                R.string.more
                             )
                         maxLines = if (maxLines == maxLine) Int.MAX_VALUE else maxLine
                     }
