@@ -16,6 +16,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.harmony6.harmony_cafe.data.MenuObject
+import java.time.LocalDate
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var components: List<List<View>>
@@ -110,8 +111,10 @@ class DetailActivity : AppCompatActivity() {
                 }
             }
         }
-        findViewById<TextView>(R.id.detail_user_name).text.apply { menu["username"] }
-        findViewById<TextView>(R.id.detail_menu_created).text.apply { menu["createdDate"].toString() }
+        findViewById<TextView>(R.id.detail_user_name).apply { text = menu["username"] as String }
+        findViewById<TextView>(R.id.detail_menu_created).apply {
+            text = (menu["createdDate"] as LocalDate).toString()
+        }
         findViewById<TextView>(R.id.detail_menu_desc).setMoreBtn(
             findViewById(R.id.detail_desc_more),
             menu["desc"] as String
