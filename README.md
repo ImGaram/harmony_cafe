@@ -1,6 +1,6 @@
 <br><br>
 <p align="center">
-  <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F83f3fa54-f475-4617-b39e-9a7c3fa6609a%2FUntitled.png?table=block&id=5c209a05-c049-4f4e-a7b1-12b825d216a5&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="500">
+  <img src="https://github.com/user-attachments/assets/13f90774-651b-4d47-a640-f0dc8c6d254e" width="500">
 </p>
 
 <br>
@@ -33,13 +33,13 @@
 <tbody>
 <tr>
   <td  align="center">
-    <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Fa5911075-46f7-4b43-9895-f59a1bfddef9%2FUntitled.png?table=block&id=16cd250e-5789-4df4-a8c8-919836a09475&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200">
+    <img src="https://github.com/user-attachments/assets/4e4b180b-99f7-49ce-9b31-1738197ac743" width="200">
   </td>
   <td align="center">
-    <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Fe42ef31f-fbe4-47cd-8c56-62ad37084d5d%2FUntitled.png?table=block&id=24e49843-ad30-4343-b96a-35546085f00c&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200">
+    <img src="https://github.com/user-attachments/assets/fe9b9beb-eae5-4b29-9c2e-2e9f37eee747" width="200">
   </td>
   <td align="center">
-    <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F48461cf4-cd7e-40ef-ae06-ba6f0b20e1ba%2FUntitled.png?table=block&id=e43f19c5-7fc5-4a03-a483-2b1784c6ed50&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200">
+    <img src="https://github.com/user-attachments/assets/0333243d-37f3-4f3d-8499-81fa067c9f9a" width="200">
   </td>
 </tr>
 
@@ -57,10 +57,10 @@
 
 <tr>
   <td  align="center">
-    <img src= "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F7a7e9f81-8b81-4870-841e-a2e15dfb7878%2FUntitled.png?table=block&id=319d7f5b-b663-4b26-9966-a439c10539df&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200"  > 
+    <img src="https://github.com/user-attachments/assets/79cdf48b-f19b-46e6-b6fb-d2ecb8627f9a" width="200"  > 
   </td>
   <td  align="center">
-    <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2Fc262db4f-087d-458d-bbfe-afcad39163df%2FUntitled.png?table=block&id=936aaed2-13b3-46e8-9670-91e548f69aec&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" >
+    <img src="https://github.com/user-attachments/assets/c3094c08-8006-4793-a4c9-71459556b7ae" width="200" >
   </td>
   <td  align="center">
   </td>
@@ -73,9 +73,9 @@
 <br>
 
 <p align="center">
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F40248c45-e428-40ac-9b46-745415ae278b%2FUntitled.png?table=block&id=5ab141cd-86c8-45ad-8dab-1deff9246d06&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/4e4b180b-99f7-49ce-9b31-1738197ac743" width="200" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F9b6f4058-520e-4007-ba01-e0322fc50bcf%2FUntitled.png?table=block&id=75da4c08-9df0-46e8-b7ba-526a4d0ac5a4&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/21c02db8-930d-4d36-96f4-cde026410da7" width="200" />
 </p>
 
 * User Data 관리
@@ -91,9 +91,9 @@
 <br>
 
 <p align="center">
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F30b0dd5e-8ad1-4ce8-b800-140476394be4%2FUntitled.png?table=block&id=1b6df277-b8d4-4533-af41-a72fd95bc9a2&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/fe9b9beb-eae5-4b29-9c2e-2e9f37eee747" width="200" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2Fe94acdcc-ad65-4dce-aa7d-43dc018f9f44%2FUntitled.png?table=block&id=b768d726-58f0-4d74-bf4e-2915f49b5563&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/0a115f33-8802-4b76-9d80-ba25272cbdf4" width="200" />
 </p>
 
 * Toolbar
@@ -110,9 +110,9 @@
 <br>
 
 <p align="center">
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F48461cf4-cd7e-40ef-ae06-ba6f0b20e1ba%2FUntitled.png?table=block&id=e43f19c5-7fc5-4a03-a483-2b1784c6ed50&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/0333243d-37f3-4f3d-8499-81fa067c9f9a" width="200" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F8ed3bf8c-d384-4e39-9071-0376be26113e%2FUntitled.png?table=block&id=bef21798-46e9-4063-bb46-f50dea1b9090&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/07692471-cfa1-4d20-9b22-a7a41312b7b4" width="200" />
 </p>
 
 * 2개의 ScrollView 사용
@@ -132,9 +132,9 @@
 <br>
 
 <p align="center">
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F7b3743b3-51f2-4ce7-8729-86dccd77815d%2FUntitled.png?table=block&id=d3d5825e-5496-4cc9-b5c1-d9091d2d023c&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/79cdf48b-f19b-46e6-b6fb-d2ecb8627f9a" width="200" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2Ff6aea671-b39a-429a-b71d-babb63756e2c%2FUntitled.png?table=block&id=11cfaba2-57f1-407c-a78a-91b789a92bb4&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/3a485756-c266-494f-aacc-8cfb6c144567" width="200" />
 </p>
 
 * 원형 ImageView 처리
@@ -151,9 +151,9 @@
 <br>
 
 <p align="center">
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2Fc262db4f-087d-458d-bbfe-afcad39163df%2FUntitled.png?table=block&id=936aaed2-13b3-46e8-9670-91e548f69aec&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/c3094c08-8006-4793-a4c9-71459556b7ae" width="200" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F88284c0a-4973-4bc1-b000-cc37155c29bb%2FUntitled.png?table=block&id=91788dee-2f1d-4653-91a4-8c49bbbc0f01&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="200" />
+<img src="https://github.com/user-attachments/assets/723b5cc3-bdc5-407f-a707-4bbb2490abce" width="200" />
 </p>
 
 * 원형 ImageView 처리
@@ -202,7 +202,7 @@
     <img src="https://avatars.githubusercontent.com/u/51291185?v=4" width="100">
   </td>
   <td align="center">
-    <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe056959e-0d34-4961-abff-aedb29af1a85%2F61df254c-d4c1-4b47-bd10-164ebe45767c%2FKakaoTalk_20240704_203122467.jpg?table=block&id=d6917697-407a-46bd-9655-621f1fa7003e&spaceId=e056959e-0d34-4961-abff-aedb29af1a85&width=2000&userId=aff6a4cb-6a70-4741-9c38-f6b264847827&cache=v2" width="100">
+    <img src="https://github.com/user-attachments/assets/b07e6047-1553-4a4d-9cab-1ac5aeeedd22" width="100">
   </td>
   </tr>
   <tr>
@@ -241,16 +241,16 @@
 ## :wrench: 기술 스택
 
 <p>
-<img height="50" width="50" src="https://cdn.simpleicons.org/kotlin/#7F52FF" />
-<img height="50" width="50" src="https://cdn.simpleicons.org/git/#F05032" />
-<img height="50" width="50" src="https://cdn.simpleicons.org/gradle/#02303A" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/kotlin/7F52FF" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/git/F05032" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/gradle/02303A" />
 </p>
 
 ## :computer: 개발/협업 환경
 
 <p>
-<img height="50" width="50" src="https://cdn.simpleicons.org/androidstudio/#3DDC84" />
-<img height="50" width="50" src="https://cdn.simpleicons.org/notion/#000000" />
-<img height="50" width="50" src="https://cdn.simpleicons.org/github/#181717" />
-<img height="50" width="50" src="https://cdn.simpleicons.org/slack/#4A154B" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/androidstudio/3DDC84" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/notion/000000" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/github/181717" />
+<img height="50" width="50" src="https://cdn.simpleicons.org/slack/4A154B" />
 </p>
